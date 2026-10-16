@@ -1,0 +1,1001 @@
+event_id,developer_id,timestamp,source,event_type,duration_minutes,team,role
+EVT00001,DEV001,2026-10-01 10:05:00,GitHub,commit,18,Team A,Backend Developer
+EVT00002,DEV001,2026-10-01 10:11:00,Slack,message,48,Team A,Backend Developer
+EVT00003,DEV001,2026-10-01 10:36:00,GitHub,pull_request_merged,58,Team A,Backend Developer
+EVT00004,DEV001,2026-10-01 10:51:00,GitHub,pull_request_merged,3,Team A,Backend Developer
+EVT00005,DEV001,2026-10-01 10:59:00,GitHub,commit,15,Team A,Backend Developer
+EVT00006,DEV001,2026-10-01 11:07:00,GitHub,pull_request_merged,46,Team A,Backend Developer
+EVT00007,DEV001,2026-10-01 11:23:00,IDE,coding_session,38,Team A,Backend Developer
+EVT00008,DEV001,2026-10-01 11:30:00,Jira,task_updated,45,Team A,Backend Developer
+EVT00009,DEV001,2026-10-01 11:40:00,IDE,context_switch,10,Team A,Backend Developer
+EVT00010,DEV001,2026-10-01 11:45:00,Slack,notification,6,Team A,Backend Developer
+EVT00011,DEV001,2026-10-01 11:58:00,IDE,coding_session,55,Team A,Backend Developer
+EVT00012,DEV001,2026-10-01 12:08:00,Jira,comment_added,52,Team A,Backend Developer
+EVT00013,DEV001,2026-10-01 12:24:00,GitHub,pull_request_merged,35,Team A,Backend Developer
+EVT00014,DEV001,2026-10-01 12:28:00,GitHub,pull_request_opened,36,Team A,Backend Developer
+EVT00015,DEV001,2026-10-01 12:49:00,Jira,comment_added,57,Team A,Backend Developer
+EVT00016,DEV001,2026-10-01 12:57:00,Jira,comment_added,46,Team A,Backend Developer
+EVT00017,DEV001,2026-10-01 13:20:00,GitHub,commit,15,Team A,Backend Developer
+EVT00018,DEV001,2026-10-01 13:29:00,Jira,task_updated,56,Team A,Backend Developer
+EVT00019,DEV001,2026-10-01 13:39:00,GitHub,pull_request_opened,30,Team A,Backend Developer
+EVT00020,DEV001,2026-10-01 13:52:00,Jira,task_updated,23,Team A,Backend Developer
+EVT00021,DEV001,2026-10-01 14:02:00,Slack,mention,45,Team A,Backend Developer
+EVT00022,DEV001,2026-10-01 14:24:00,GitHub,pull_request_merged,11,Team A,Backend Developer
+EVT00023,DEV001,2026-10-01 14:40:00,Slack,message,25,Team A,Backend Developer
+EVT00024,DEV001,2026-10-01 15:04:00,Jira,comment_added,36,Team A,Backend Developer
+EVT00025,DEV001,2026-10-01 15:16:00,Slack,mention,54,Team A,Backend Developer
+EVT00026,DEV001,2026-10-01 15:19:00,GitHub,commit,52,Team A,Backend Developer
+EVT00027,DEV001,2026-10-01 15:29:00,Jira,task_completed,5,Team A,Backend Developer
+EVT00028,DEV001,2026-10-01 15:53:00,Slack,mention,21,Team A,Backend Developer
+EVT00029,DEV001,2026-10-01 16:10:00,Slack,mention,26,Team A,Backend Developer
+EVT00030,DEV001,2026-10-01 16:20:00,IDE,coding_session,9,Team A,Backend Developer
+EVT00031,DEV001,2026-10-01 16:39:00,Slack,mention,35,Team A,Backend Developer
+EVT00032,DEV001,2026-10-01 16:59:00,Jira,comment_added,28,Team A,Backend Developer
+EVT00033,DEV001,2026-10-01 17:08:00,IDE,context_switch,9,Team A,Backend Developer
+EVT00034,DEV001,2026-10-01 17:11:00,IDE,coding_session,56,Team A,Backend Developer
+EVT00035,DEV001,2026-10-01 17:33:00,GitHub,commit,11,Team A,Backend Developer
+EVT00036,DEV001,2026-10-01 17:37:00,IDE,debugging_session,25,Team A,Backend Developer
+EVT00037,DEV001,2026-10-01 17:53:00,IDE,debugging_session,34,Team A,Backend Developer
+EVT00038,DEV001,2026-10-01 17:55:00,Jira,comment_added,44,Team A,Backend Developer
+EVT00039,DEV001,2026-10-02 09:14:00,GitHub,pull_request_merged,49,Team A,Backend Developer
+EVT00040,DEV001,2026-10-02 09:26:00,Jira,comment_added,8,Team A,Backend Developer
+EVT00041,DEV001,2026-10-02 09:33:00,Jira,task_completed,30,Team A,Backend Developer
+EVT00042,DEV001,2026-10-02 09:58:00,GitHub,pull_request_merged,17,Team A,Backend Developer
+EVT00043,DEV001,2026-10-02 10:03:00,Slack,mention,56,Team A,Backend Developer
+EVT00044,DEV001,2026-10-02 10:21:00,Jira,comment_added,39,Team A,Backend Developer
+EVT00045,DEV001,2026-10-02 10:34:00,Slack,message,49,Team A,Backend Developer
+EVT00046,DEV001,2026-10-02 10:52:00,Slack,mention,59,Team A,Backend Developer
+EVT00047,DEV001,2026-10-02 11:04:00,GitHub,pull_request_merged,32,Team A,Backend Developer
+EVT00048,DEV001,2026-10-02 11:17:00,GitHub,commit,57,Team A,Backend Developer
+EVT00049,DEV001,2026-10-02 11:20:00,Jira,task_updated,16,Team A,Backend Developer
+EVT00050,DEV001,2026-10-02 11:45:00,GitHub,commit,32,Team A,Backend Developer
+EVT00051,DEV001,2026-10-02 11:51:00,GitHub,pull_request_merged,9,Team A,Backend Developer
+EVT00052,DEV001,2026-10-02 11:58:00,IDE,debugging_session,17,Team A,Backend Developer
+EVT00053,DEV001,2026-10-02 12:17:00,IDE,coding_session,49,Team A,Backend Developer
+EVT00054,DEV001,2026-10-02 12:28:00,Slack,mention,26,Team A,Backend Developer
+EVT00055,DEV001,2026-10-02 12:46:00,Jira,task_completed,29,Team A,Backend Developer
+EVT00056,DEV001,2026-10-02 12:55:00,GitHub,commit,5,Team A,Backend Developer
+EVT00057,DEV001,2026-10-02 13:15:00,Jira,task_updated,36,Team A,Backend Developer
+EVT00058,DEV001,2026-10-02 13:24:00,Slack,mention,1,Team A,Backend Developer
+EVT00059,DEV001,2026-10-02 13:46:00,GitHub,pull_request_merged,4,Team A,Backend Developer
+EVT00060,DEV001,2026-10-02 13:49:00,Slack,message,56,Team A,Backend Developer
+EVT00061,DEV001,2026-10-02 14:07:00,Jira,task_updated,16,Team A,Backend Developer
+EVT00062,DEV001,2026-10-02 14:24:00,Jira,comment_added,14,Team A,Backend Developer
+EVT00063,DEV001,2026-10-02 14:44:00,Slack,mention,37,Team A,Backend Developer
+EVT00064,DEV001,2026-10-02 15:01:00,IDE,coding_session,52,Team A,Backend Developer
+EVT00065,DEV001,2026-10-02 15:06:00,IDE,coding_session,7,Team A,Backend Developer
+EVT00066,DEV001,2026-10-02 15:21:00,IDE,context_switch,27,Team A,Backend Developer
+EVT00067,DEV001,2026-10-02 15:24:00,IDE,debugging_session,44,Team A,Backend Developer
+EVT00068,DEV001,2026-10-02 15:38:00,GitHub,commit,47,Team A,Backend Developer
+EVT00069,DEV001,2026-10-02 15:47:00,Jira,task_updated,13,Team A,Backend Developer
+EVT00070,DEV001,2026-10-02 16:03:00,Slack,mention,9,Team A,Backend Developer
+EVT00071,DEV001,2026-10-02 16:13:00,IDE,coding_session,30,Team A,Backend Developer
+EVT00072,DEV001,2026-10-02 16:29:00,Slack,message,52,Team A,Backend Developer
+EVT00073,DEV001,2026-10-02 16:51:00,GitHub,commit,35,Team A,Backend Developer
+EVT00074,DEV001,2026-10-02 17:00:00,GitHub,commit,11,Team A,Backend Developer
+EVT00075,DEV001,2026-10-02 17:17:00,IDE,context_switch,14,Team A,Backend Developer
+EVT00076,DEV001,2026-10-02 17:24:00,IDE,coding_session,25,Team A,Backend Developer
+EVT00077,DEV001,2026-10-02 17:34:00,GitHub,pull_request_opened,60,Team A,Backend Developer
+EVT00078,DEV001,2026-10-02 17:49:00,IDE,context_switch,45,Team A,Backend Developer
+EVT00079,DEV001,2026-10-02 17:57:00,IDE,coding_session,19,Team A,Backend Developer
+EVT00080,DEV001,2026-10-03 09:17:00,Slack,message,48,Team A,Backend Developer
+EVT00081,DEV001,2026-10-03 09:29:00,GitHub,pull_request_merged,4,Team A,Backend Developer
+EVT00082,DEV001,2026-10-03 09:46:00,GitHub,pull_request_merged,33,Team A,Backend Developer
+EVT00083,DEV001,2026-10-03 10:04:00,Slack,message,6,Team A,Backend Developer
+EVT00084,DEV001,2026-10-03 10:25:00,Slack,message,5,Team A,Backend Developer
+EVT00085,DEV001,2026-10-03 10:30:00,Slack,notification,57,Team A,Backend Developer
+EVT00086,DEV001,2026-10-03 10:51:00,Slack,mention,3,Team A,Backend Developer
+EVT00087,DEV001,2026-10-03 11:14:00,GitHub,pull_request_opened,38,Team A,Backend Developer
+EVT00088,DEV001,2026-10-03 11:22:00,Jira,task_completed,43,Team A,Backend Developer
+EVT00089,DEV001,2026-10-03 11:32:00,Jira,task_updated,26,Team A,Backend Developer
+EVT00090,DEV001,2026-10-03 11:54:00,Slack,mention,20,Team A,Backend Developer
+EVT00091,DEV001,2026-10-03 11:58:00,IDE,context_switch,1,Team A,Backend Developer
+EVT00092,DEV001,2026-10-03 12:18:00,IDE,debugging_session,7,Team A,Backend Developer
+EVT00093,DEV001,2026-10-03 12:26:00,GitHub,pull_request_merged,33,Team A,Backend Developer
+EVT00094,DEV001,2026-10-03 12:39:00,Jira,task_updated,57,Team A,Backend Developer
+EVT00095,DEV001,2026-10-03 12:52:00,GitHub,commit,19,Team A,Backend Developer
+EVT00096,DEV001,2026-10-03 13:11:00,Slack,notification,46,Team A,Backend Developer
+EVT00097,DEV001,2026-10-03 13:33:00,Jira,comment_added,34,Team A,Backend Developer
+EVT00098,DEV001,2026-10-03 13:52:00,GitHub,pull_request_merged,20,Team A,Backend Developer
+EVT00099,DEV001,2026-10-03 14:02:00,GitHub,commit,8,Team A,Backend Developer
+EVT00100,DEV001,2026-10-03 14:21:00,GitHub,pull_request_merged,10,Team A,Backend Developer
+EVT00101,DEV002,2026-10-01 09:25:00,Jira,comment_added,46,Team A,Frontend Developer
+EVT00102,DEV002,2026-10-01 09:48:00,Jira,task_updated,41,Team A,Frontend Developer
+EVT00103,DEV002,2026-10-01 10:05:00,Jira,comment_added,17,Team A,Frontend Developer
+EVT00104,DEV002,2026-10-01 10:27:00,GitHub,commit,28,Team A,Frontend Developer
+EVT00105,DEV002,2026-10-01 10:29:00,Jira,task_updated,22,Team A,Frontend Developer
+EVT00106,DEV002,2026-10-01 10:39:00,Slack,mention,11,Team A,Frontend Developer
+EVT00107,DEV002,2026-10-01 11:03:00,IDE,debugging_session,28,Team A,Frontend Developer
+EVT00108,DEV002,2026-10-01 11:07:00,GitHub,commit,57,Team A,Frontend Developer
+EVT00109,DEV002,2026-10-01 11:10:00,Slack,mention,54,Team A,Frontend Developer
+EVT00110,DEV002,2026-10-01 11:29:00,Jira,comment_added,10,Team A,Frontend Developer
+EVT00111,DEV002,2026-10-01 11:32:00,IDE,coding_session,20,Team A,Frontend Developer
+EVT00112,DEV002,2026-10-01 11:45:00,Jira,task_updated,14,Team A,Frontend Developer
+EVT00113,DEV002,2026-10-01 11:50:00,Slack,mention,23,Team A,Frontend Developer
+EVT00114,DEV002,2026-10-01 12:15:00,IDE,debugging_session,10,Team A,Frontend Developer
+EVT00115,DEV002,2026-10-01 12:22:00,Slack,message,57,Team A,Frontend Developer
+EVT00116,DEV002,2026-10-01 12:29:00,IDE,coding_session,48,Team A,Frontend Developer
+EVT00117,DEV002,2026-10-01 12:52:00,Jira,task_completed,56,Team A,Frontend Developer
+EVT00118,DEV002,2026-10-01 12:59:00,Slack,notification,51,Team A,Frontend Developer
+EVT00119,DEV002,2026-10-01 13:02:00,GitHub,pull_request_opened,55,Team A,Frontend Developer
+EVT00120,DEV002,2026-10-01 13:10:00,IDE,coding_session,53,Team A,Frontend Developer
+EVT00121,DEV002,2026-10-01 13:21:00,IDE,context_switch,53,Team A,Frontend Developer
+EVT00122,DEV002,2026-10-01 13:23:00,Slack,message,43,Team A,Frontend Developer
+EVT00123,DEV002,2026-10-01 13:35:00,Slack,notification,18,Team A,Frontend Developer
+EVT00124,DEV002,2026-10-01 13:48:00,GitHub,pull_request_opened,42,Team A,Frontend Developer
+EVT00125,DEV002,2026-10-01 14:07:00,IDE,debugging_session,22,Team A,Frontend Developer
+EVT00126,DEV002,2026-10-01 14:17:00,GitHub,commit,12,Team A,Frontend Developer
+EVT00127,DEV002,2026-10-01 14:22:00,Jira,task_updated,39,Team A,Frontend Developer
+EVT00128,DEV002,2026-10-01 14:47:00,IDE,context_switch,51,Team A,Frontend Developer
+EVT00129,DEV002,2026-10-01 15:08:00,Jira,task_completed,33,Team A,Frontend Developer
+EVT00130,DEV002,2026-10-01 15:28:00,GitHub,pull_request_opened,13,Team A,Frontend Developer
+EVT00131,DEV002,2026-10-01 15:52:00,Jira,task_updated,28,Team A,Frontend Developer
+EVT00132,DEV002,2026-10-01 16:11:00,GitHub,pull_request_merged,44,Team A,Frontend Developer
+EVT00133,DEV002,2026-10-01 16:26:00,Slack,notification,5,Team A,Frontend Developer
+EVT00134,DEV002,2026-10-01 16:38:00,Jira,comment_added,43,Team A,Frontend Developer
+EVT00135,DEV002,2026-10-01 16:49:00,GitHub,pull_request_merged,33,Team A,Frontend Developer
+EVT00136,DEV002,2026-10-01 17:04:00,Jira,comment_added,21,Team A,Frontend Developer
+EVT00137,DEV002,2026-10-01 17:15:00,IDE,debugging_session,36,Team A,Frontend Developer
+EVT00138,DEV002,2026-10-01 17:30:00,Slack,message,43,Team A,Frontend Developer
+EVT00139,DEV002,2026-10-01 17:55:00,IDE,debugging_session,58,Team A,Frontend Developer
+EVT00140,DEV002,2026-10-02 09:15:00,Slack,mention,20,Team A,Frontend Developer
+EVT00141,DEV002,2026-10-02 09:17:00,IDE,debugging_session,20,Team A,Frontend Developer
+EVT00142,DEV002,2026-10-02 09:32:00,Jira,task_updated,51,Team A,Frontend Developer
+EVT00143,DEV002,2026-10-02 09:48:00,Jira,task_completed,29,Team A,Frontend Developer
+EVT00144,DEV002,2026-10-02 10:05:00,Slack,mention,51,Team A,Frontend Developer
+EVT00145,DEV002,2026-10-02 10:09:00,Slack,mention,19,Team A,Frontend Developer
+EVT00146,DEV002,2026-10-02 10:18:00,Jira,task_updated,44,Team A,Frontend Developer
+EVT00147,DEV002,2026-10-02 10:26:00,Jira,task_updated,10,Team A,Frontend Developer
+EVT00148,DEV002,2026-10-02 10:35:00,GitHub,commit,31,Team A,Frontend Developer
+EVT00149,DEV002,2026-10-02 10:50:00,GitHub,pull_request_opened,57,Team A,Frontend Developer
+EVT00150,DEV002,2026-10-02 11:14:00,Slack,mention,25,Team A,Frontend Developer
+EVT00151,DEV002,2026-10-02 11:23:00,IDE,context_switch,10,Team A,Frontend Developer
+EVT00152,DEV002,2026-10-02 11:38:00,GitHub,commit,15,Team A,Frontend Developer
+EVT00153,DEV002,2026-10-02 11:56:00,Slack,mention,30,Team A,Frontend Developer
+EVT00154,DEV002,2026-10-02 12:05:00,GitHub,pull_request_merged,59,Team A,Frontend Developer
+EVT00155,DEV002,2026-10-02 12:11:00,GitHub,pull_request_opened,52,Team A,Frontend Developer
+EVT00156,DEV002,2026-10-02 12:29:00,IDE,debugging_session,36,Team A,Frontend Developer
+EVT00157,DEV002,2026-10-02 12:50:00,Jira,task_completed,53,Team A,Frontend Developer
+EVT00158,DEV002,2026-10-02 13:06:00,IDE,debugging_session,58,Team A,Frontend Developer
+EVT00159,DEV002,2026-10-02 13:23:00,Slack,mention,29,Team A,Frontend Developer
+EVT00160,DEV002,2026-10-02 13:45:00,Jira,task_updated,18,Team A,Frontend Developer
+EVT00161,DEV002,2026-10-02 13:54:00,IDE,debugging_session,18,Team A,Frontend Developer
+EVT00162,DEV002,2026-10-02 14:18:00,IDE,coding_session,19,Team A,Frontend Developer
+EVT00163,DEV002,2026-10-02 14:30:00,Slack,notification,21,Team A,Frontend Developer
+EVT00164,DEV002,2026-10-02 14:36:00,GitHub,commit,15,Team A,Frontend Developer
+EVT00165,DEV002,2026-10-02 14:42:00,IDE,debugging_session,46,Team A,Frontend Developer
+EVT00166,DEV002,2026-10-02 14:57:00,Slack,message,27,Team A,Frontend Developer
+EVT00167,DEV002,2026-10-02 15:13:00,Jira,comment_added,27,Team A,Frontend Developer
+EVT00168,DEV002,2026-10-02 15:28:00,GitHub,commit,25,Team A,Frontend Developer
+EVT00169,DEV002,2026-10-02 15:42:00,GitHub,pull_request_merged,31,Team A,Frontend Developer
+EVT00170,DEV002,2026-10-02 15:53:00,GitHub,pull_request_opened,49,Team A,Frontend Developer
+EVT00171,DEV002,2026-10-02 16:12:00,IDE,context_switch,48,Team A,Frontend Developer
+EVT00172,DEV002,2026-10-02 16:21:00,Slack,notification,18,Team A,Frontend Developer
+EVT00173,DEV002,2026-10-02 16:23:00,IDE,context_switch,25,Team A,Frontend Developer
+EVT00174,DEV002,2026-10-02 16:46:00,Jira,comment_added,52,Team A,Frontend Developer
+EVT00175,DEV002,2026-10-02 16:53:00,IDE,debugging_session,54,Team A,Frontend Developer
+EVT00176,DEV002,2026-10-02 17:14:00,IDE,coding_session,35,Team A,Frontend Developer
+EVT00177,DEV002,2026-10-02 17:34:00,GitHub,pull_request_opened,37,Team A,Frontend Developer
+EVT00178,DEV002,2026-10-02 17:56:00,GitHub,commit,28,Team A,Frontend Developer
+EVT00179,DEV002,2026-10-03 09:03:00,Slack,notification,4,Team A,Frontend Developer
+EVT00180,DEV002,2026-10-03 09:15:00,Jira,task_completed,14,Team A,Frontend Developer
+EVT00181,DEV002,2026-10-03 09:27:00,IDE,context_switch,49,Team A,Frontend Developer
+EVT00182,DEV002,2026-10-03 09:42:00,IDE,context_switch,17,Team A,Frontend Developer
+EVT00183,DEV002,2026-10-03 09:44:00,GitHub,pull_request_opened,48,Team A,Frontend Developer
+EVT00184,DEV002,2026-10-03 09:53:00,GitHub,pull_request_opened,42,Team A,Frontend Developer
+EVT00185,DEV002,2026-10-03 09:56:00,GitHub,pull_request_merged,49,Team A,Frontend Developer
+EVT00186,DEV002,2026-10-03 10:04:00,GitHub,commit,54,Team A,Frontend Developer
+EVT00187,DEV002,2026-10-03 10:10:00,GitHub,pull_request_merged,16,Team A,Frontend Developer
+EVT00188,DEV002,2026-10-03 10:33:00,Slack,notification,8,Team A,Frontend Developer
+EVT00189,DEV002,2026-10-03 10:57:00,Slack,notification,17,Team A,Frontend Developer
+EVT00190,DEV002,2026-10-03 11:18:00,Jira,task_updated,39,Team A,Frontend Developer
+EVT00191,DEV002,2026-10-03 11:29:00,GitHub,commit,7,Team A,Frontend Developer
+EVT00192,DEV002,2026-10-03 11:49:00,GitHub,pull_request_opened,44,Team A,Frontend Developer
+EVT00193,DEV002,2026-10-03 12:13:00,IDE,context_switch,13,Team A,Frontend Developer
+EVT00194,DEV002,2026-10-03 12:37:00,GitHub,pull_request_merged,54,Team A,Frontend Developer
+EVT00195,DEV002,2026-10-03 13:01:00,Slack,message,50,Team A,Frontend Developer
+EVT00196,DEV002,2026-10-03 13:22:00,Jira,comment_added,52,Team A,Frontend Developer
+EVT00197,DEV002,2026-10-03 13:25:00,GitHub,pull_request_merged,23,Team A,Frontend Developer
+EVT00198,DEV002,2026-10-03 13:38:00,IDE,debugging_session,5,Team A,Frontend Developer
+EVT00199,DEV002,2026-10-03 13:53:00,Jira,task_updated,53,Team A,Frontend Developer
+EVT00200,DEV002,2026-10-03 14:08:00,IDE,coding_session,24,Team A,Frontend Developer
+EVT00201,DEV003,2026-10-01 09:46:00,IDE,debugging_session,28,Team A,Data Engineer
+EVT00202,DEV003,2026-10-01 10:04:00,Slack,mention,42,Team A,Data Engineer
+EVT00203,DEV003,2026-10-01 10:23:00,Jira,comment_added,50,Team A,Data Engineer
+EVT00204,DEV003,2026-10-01 10:38:00,IDE,context_switch,53,Team A,Data Engineer
+EVT00205,DEV003,2026-10-01 10:47:00,Jira,task_completed,54,Team A,Data Engineer
+EVT00206,DEV003,2026-10-01 11:03:00,GitHub,pull_request_opened,16,Team A,Data Engineer
+EVT00207,DEV003,2026-10-01 11:24:00,IDE,debugging_session,43,Team A,Data Engineer
+EVT00208,DEV003,2026-10-01 11:26:00,IDE,context_switch,32,Team A,Data Engineer
+EVT00209,DEV003,2026-10-01 11:43:00,Jira,task_updated,14,Team A,Data Engineer
+EVT00210,DEV003,2026-10-01 11:55:00,Jira,task_completed,18,Team A,Data Engineer
+EVT00211,DEV003,2026-10-01 11:57:00,Jira,comment_added,34,Team A,Data Engineer
+EVT00212,DEV003,2026-10-01 12:06:00,Slack,message,47,Team A,Data Engineer
+EVT00213,DEV003,2026-10-01 12:25:00,IDE,context_switch,49,Team A,Data Engineer
+EVT00214,DEV003,2026-10-01 12:42:00,Slack,mention,42,Team A,Data Engineer
+EVT00215,DEV003,2026-10-01 12:44:00,IDE,context_switch,6,Team A,Data Engineer
+EVT00216,DEV003,2026-10-01 12:58:00,Jira,task_updated,45,Team A,Data Engineer
+EVT00217,DEV003,2026-10-01 13:21:00,Slack,notification,38,Team A,Data Engineer
+EVT00218,DEV003,2026-10-01 13:40:00,Jira,task_completed,34,Team A,Data Engineer
+EVT00219,DEV003,2026-10-01 14:05:00,Jira,task_completed,36,Team A,Data Engineer
+EVT00220,DEV003,2026-10-01 14:29:00,Jira,task_completed,30,Team A,Data Engineer
+EVT00221,DEV003,2026-10-01 14:39:00,Jira,task_completed,15,Team A,Data Engineer
+EVT00222,DEV003,2026-10-01 14:47:00,GitHub,pull_request_merged,21,Team A,Data Engineer
+EVT00223,DEV003,2026-10-01 15:06:00,GitHub,pull_request_merged,49,Team A,Data Engineer
+EVT00224,DEV003,2026-10-01 15:14:00,Slack,message,48,Team A,Data Engineer
+EVT00225,DEV003,2026-10-01 15:39:00,IDE,context_switch,38,Team A,Data Engineer
+EVT00226,DEV003,2026-10-01 15:47:00,Jira,task_updated,19,Team A,Data Engineer
+EVT00227,DEV003,2026-10-01 15:54:00,Slack,notification,20,Team A,Data Engineer
+EVT00228,DEV003,2026-10-01 16:13:00,GitHub,pull_request_merged,9,Team A,Data Engineer
+EVT00229,DEV003,2026-10-01 16:16:00,Jira,task_updated,36,Team A,Data Engineer
+EVT00230,DEV003,2026-10-01 16:22:00,Jira,comment_added,41,Team A,Data Engineer
+EVT00231,DEV003,2026-10-01 16:24:00,IDE,coding_session,37,Team A,Data Engineer
+EVT00232,DEV003,2026-10-01 16:41:00,Jira,task_completed,29,Team A,Data Engineer
+EVT00233,DEV003,2026-10-01 16:44:00,Jira,task_updated,17,Team A,Data Engineer
+EVT00234,DEV003,2026-10-01 16:48:00,IDE,coding_session,26,Team A,Data Engineer
+EVT00235,DEV003,2026-10-01 17:08:00,IDE,coding_session,41,Team A,Data Engineer
+EVT00236,DEV003,2026-10-01 17:14:00,GitHub,commit,52,Team A,Data Engineer
+EVT00237,DEV003,2026-10-01 17:23:00,Jira,task_updated,8,Team A,Data Engineer
+EVT00238,DEV003,2026-10-01 17:44:00,IDE,debugging_session,51,Team A,Data Engineer
+EVT00239,DEV003,2026-10-01 17:58:00,Slack,mention,29,Team A,Data Engineer
+EVT00240,DEV003,2026-10-02 09:18:00,IDE,context_switch,28,Team A,Data Engineer
+EVT00241,DEV003,2026-10-02 09:39:00,Jira,comment_added,4,Team A,Data Engineer
+EVT00242,DEV003,2026-10-02 10:01:00,GitHub,commit,14,Team A,Data Engineer
+EVT00243,DEV003,2026-10-02 10:05:00,Jira,comment_added,11,Team A,Data Engineer
+EVT00244,DEV003,2026-10-02 10:24:00,Slack,message,5,Team A,Data Engineer
+EVT00245,DEV003,2026-10-02 10:39:00,Slack,message,29,Team A,Data Engineer
+EVT00246,DEV003,2026-10-02 10:42:00,IDE,context_switch,15,Team A,Data Engineer
+EVT00247,DEV003,2026-10-02 10:53:00,Jira,comment_added,45,Team A,Data Engineer
+EVT00248,DEV003,2026-10-02 11:16:00,IDE,coding_session,15,Team A,Data Engineer
+EVT00249,DEV003,2026-10-02 11:36:00,Jira,comment_added,43,Team A,Data Engineer
+EVT00250,DEV003,2026-10-02 11:41:00,Slack,notification,35,Team A,Data Engineer
+EVT00251,DEV003,2026-10-02 11:47:00,Slack,mention,59,Team A,Data Engineer
+EVT00252,DEV003,2026-10-02 11:51:00,Jira,task_updated,4,Team A,Data Engineer
+EVT00253,DEV003,2026-10-02 12:12:00,Slack,notification,48,Team A,Data Engineer
+EVT00254,DEV003,2026-10-02 12:17:00,Jira,task_completed,30,Team A,Data Engineer
+EVT00255,DEV003,2026-10-02 12:31:00,Jira,comment_added,18,Team A,Data Engineer
+EVT00256,DEV003,2026-10-02 12:35:00,IDE,context_switch,39,Team A,Data Engineer
+EVT00257,DEV003,2026-10-02 13:00:00,GitHub,pull_request_opened,21,Team A,Data Engineer
+EVT00258,DEV003,2026-10-02 13:04:00,Jira,task_updated,15,Team A,Data Engineer
+EVT00259,DEV003,2026-10-02 13:14:00,GitHub,pull_request_merged,37,Team A,Data Engineer
+EVT00260,DEV003,2026-10-02 13:31:00,GitHub,commit,34,Team A,Data Engineer
+EVT00261,DEV003,2026-10-02 13:38:00,IDE,context_switch,38,Team A,Data Engineer
+EVT00262,DEV003,2026-10-02 13:55:00,IDE,debugging_session,6,Team A,Data Engineer
+EVT00263,DEV003,2026-10-02 14:10:00,IDE,context_switch,22,Team A,Data Engineer
+EVT00264,DEV003,2026-10-02 14:15:00,Jira,comment_added,55,Team A,Data Engineer
+EVT00265,DEV003,2026-10-02 14:30:00,Slack,notification,45,Team A,Data Engineer
+EVT00266,DEV003,2026-10-02 14:53:00,IDE,context_switch,26,Team A,Data Engineer
+EVT00267,DEV003,2026-10-02 14:57:00,GitHub,pull_request_opened,21,Team A,Data Engineer
+EVT00268,DEV003,2026-10-02 15:02:00,Jira,task_completed,50,Team A,Data Engineer
+EVT00269,DEV003,2026-10-02 15:04:00,IDE,debugging_session,43,Team A,Data Engineer
+EVT00270,DEV003,2026-10-02 15:07:00,IDE,context_switch,13,Team A,Data Engineer
+EVT00271,DEV003,2026-10-02 15:24:00,Jira,comment_added,41,Team A,Data Engineer
+EVT00272,DEV003,2026-10-02 15:32:00,IDE,coding_session,18,Team A,Data Engineer
+EVT00273,DEV003,2026-10-02 15:48:00,Slack,notification,57,Team A,Data Engineer
+EVT00274,DEV003,2026-10-02 15:50:00,IDE,coding_session,41,Team A,Data Engineer
+EVT00275,DEV003,2026-10-02 15:57:00,Slack,mention,20,Team A,Data Engineer
+EVT00276,DEV003,2026-10-02 16:12:00,GitHub,pull_request_merged,6,Team A,Data Engineer
+EVT00277,DEV003,2026-10-02 16:28:00,Slack,message,8,Team A,Data Engineer
+EVT00278,DEV003,2026-10-02 16:52:00,Slack,notification,19,Team A,Data Engineer
+EVT00279,DEV003,2026-10-02 17:09:00,Jira,task_completed,31,Team A,Data Engineer
+EVT00280,DEV003,2026-10-02 17:28:00,Slack,notification,10,Team A,Data Engineer
+EVT00281,DEV003,2026-10-02 17:49:00,IDE,coding_session,33,Team A,Data Engineer
+EVT00282,DEV003,2026-10-02 17:59:00,Slack,message,50,Team A,Data Engineer
+EVT00283,DEV003,2026-10-03 09:17:00,IDE,context_switch,18,Team A,Data Engineer
+EVT00284,DEV003,2026-10-03 09:42:00,GitHub,pull_request_opened,20,Team A,Data Engineer
+EVT00285,DEV003,2026-10-03 09:58:00,IDE,coding_session,35,Team A,Data Engineer
+EVT00286,DEV003,2026-10-03 10:10:00,IDE,context_switch,36,Team A,Data Engineer
+EVT00287,DEV003,2026-10-03 10:22:00,IDE,context_switch,56,Team A,Data Engineer
+EVT00288,DEV003,2026-10-03 10:31:00,Slack,mention,37,Team A,Data Engineer
+EVT00289,DEV003,2026-10-03 10:46:00,IDE,coding_session,3,Team A,Data Engineer
+EVT00290,DEV003,2026-10-03 11:03:00,Jira,comment_added,46,Team A,Data Engineer
+EVT00291,DEV003,2026-10-03 11:26:00,IDE,context_switch,51,Team A,Data Engineer
+EVT00292,DEV003,2026-10-03 11:29:00,Slack,notification,9,Team A,Data Engineer
+EVT00293,DEV003,2026-10-03 11:45:00,Jira,task_updated,7,Team A,Data Engineer
+EVT00294,DEV003,2026-10-03 12:10:00,IDE,coding_session,10,Team A,Data Engineer
+EVT00295,DEV003,2026-10-03 12:16:00,IDE,debugging_session,5,Team A,Data Engineer
+EVT00296,DEV003,2026-10-03 12:28:00,IDE,context_switch,40,Team A,Data Engineer
+EVT00297,DEV003,2026-10-03 12:32:00,IDE,debugging_session,55,Team A,Data Engineer
+EVT00298,DEV003,2026-10-03 12:51:00,Jira,comment_added,25,Team A,Data Engineer
+EVT00299,DEV003,2026-10-03 13:15:00,Jira,comment_added,57,Team A,Data Engineer
+EVT00300,DEV003,2026-10-03 13:18:00,IDE,debugging_session,40,Team A,Data Engineer
+EVT00301,DEV004,2026-10-01 09:27:00,Slack,mention,59,Team A,AI Engineer
+EVT00302,DEV004,2026-10-01 09:52:00,Jira,task_updated,6,Team A,AI Engineer
+EVT00303,DEV004,2026-10-01 10:14:00,IDE,coding_session,46,Team A,AI Engineer
+EVT00304,DEV004,2026-10-01 10:21:00,GitHub,pull_request_opened,45,Team A,AI Engineer
+EVT00305,DEV004,2026-10-01 10:24:00,Jira,task_updated,21,Team A,AI Engineer
+EVT00306,DEV004,2026-10-01 10:37:00,GitHub,pull_request_opened,24,Team A,AI Engineer
+EVT00307,DEV004,2026-10-01 10:46:00,IDE,coding_session,34,Team A,AI Engineer
+EVT00308,DEV004,2026-10-01 11:09:00,IDE,debugging_session,51,Team A,AI Engineer
+EVT00309,DEV004,2026-10-01 11:16:00,Slack,message,6,Team A,AI Engineer
+EVT00310,DEV004,2026-10-01 11:39:00,IDE,debugging_session,16,Team A,AI Engineer
+EVT00311,DEV004,2026-10-01 11:45:00,IDE,debugging_session,15,Team A,AI Engineer
+EVT00312,DEV004,2026-10-01 11:55:00,IDE,debugging_session,30,Team A,AI Engineer
+EVT00313,DEV004,2026-10-01 11:57:00,Jira,comment_added,58,Team A,AI Engineer
+EVT00314,DEV004,2026-10-01 12:20:00,IDE,context_switch,35,Team A,AI Engineer
+EVT00315,DEV004,2026-10-01 12:36:00,Slack,message,23,Team A,AI Engineer
+EVT00316,DEV004,2026-10-01 12:51:00,Jira,comment_added,45,Team A,AI Engineer
+EVT00317,DEV004,2026-10-01 13:02:00,Jira,task_completed,13,Team A,AI Engineer
+EVT00318,DEV004,2026-10-01 13:07:00,IDE,context_switch,16,Team A,AI Engineer
+EVT00319,DEV004,2026-10-01 13:20:00,IDE,debugging_session,37,Team A,AI Engineer
+EVT00320,DEV004,2026-10-01 13:31:00,Jira,comment_added,2,Team A,AI Engineer
+EVT00321,DEV004,2026-10-01 13:33:00,IDE,context_switch,37,Team A,AI Engineer
+EVT00322,DEV004,2026-10-01 13:58:00,GitHub,pull_request_merged,32,Team A,AI Engineer
+EVT00323,DEV004,2026-10-01 14:19:00,Jira,task_updated,52,Team A,AI Engineer
+EVT00324,DEV004,2026-10-01 14:41:00,Jira,task_updated,13,Team A,AI Engineer
+EVT00325,DEV004,2026-10-01 15:06:00,Jira,comment_added,50,Team A,AI Engineer
+EVT00326,DEV004,2026-10-01 15:11:00,Slack,mention,58,Team A,AI Engineer
+EVT00327,DEV004,2026-10-01 15:27:00,GitHub,pull_request_opened,3,Team A,AI Engineer
+EVT00328,DEV004,2026-10-01 15:33:00,Jira,comment_added,6,Team A,AI Engineer
+EVT00329,DEV004,2026-10-01 15:58:00,Jira,task_completed,27,Team A,AI Engineer
+EVT00330,DEV004,2026-10-01 16:04:00,Slack,message,51,Team A,AI Engineer
+EVT00331,DEV004,2026-10-01 16:22:00,Jira,comment_added,59,Team A,AI Engineer
+EVT00332,DEV004,2026-10-01 16:32:00,Jira,task_updated,59,Team A,AI Engineer
+EVT00333,DEV004,2026-10-01 16:57:00,IDE,context_switch,56,Team A,AI Engineer
+EVT00334,DEV004,2026-10-01 17:13:00,Jira,task_updated,5,Team A,AI Engineer
+EVT00335,DEV004,2026-10-01 17:36:00,Slack,message,47,Team A,AI Engineer
+EVT00336,DEV004,2026-10-01 17:49:00,IDE,debugging_session,6,Team A,AI Engineer
+EVT00337,DEV004,2026-10-01 17:59:00,IDE,coding_session,35,Team A,AI Engineer
+EVT00338,DEV004,2026-10-02 09:12:00,GitHub,pull_request_opened,44,Team A,AI Engineer
+EVT00339,DEV004,2026-10-02 09:26:00,Jira,comment_added,53,Team A,AI Engineer
+EVT00340,DEV004,2026-10-02 09:49:00,Jira,task_updated,15,Team A,AI Engineer
+EVT00341,DEV004,2026-10-02 10:10:00,IDE,coding_session,57,Team A,AI Engineer
+EVT00342,DEV004,2026-10-02 10:19:00,Jira,comment_added,42,Team A,AI Engineer
+EVT00343,DEV004,2026-10-02 10:35:00,GitHub,pull_request_merged,59,Team A,AI Engineer
+EVT00344,DEV004,2026-10-02 10:50:00,Jira,comment_added,8,Team A,AI Engineer
+EVT00345,DEV004,2026-10-02 10:53:00,Slack,message,20,Team A,AI Engineer
+EVT00346,DEV004,2026-10-02 10:58:00,IDE,coding_session,16,Team A,AI Engineer
+EVT00347,DEV004,2026-10-02 11:14:00,Slack,notification,24,Team A,AI Engineer
+EVT00348,DEV004,2026-10-02 11:39:00,IDE,debugging_session,47,Team A,AI Engineer
+EVT00349,DEV004,2026-10-02 12:01:00,Slack,notification,7,Team A,AI Engineer
+EVT00350,DEV004,2026-10-02 12:16:00,IDE,debugging_session,18,Team A,AI Engineer
+EVT00351,DEV004,2026-10-02 12:29:00,GitHub,pull_request_merged,14,Team A,AI Engineer
+EVT00352,DEV004,2026-10-02 12:38:00,IDE,context_switch,55,Team A,AI Engineer
+EVT00353,DEV004,2026-10-02 13:01:00,Jira,task_updated,24,Team A,AI Engineer
+EVT00354,DEV004,2026-10-02 13:15:00,Jira,task_updated,18,Team A,AI Engineer
+EVT00355,DEV004,2026-10-02 13:31:00,Slack,message,6,Team A,AI Engineer
+EVT00356,DEV004,2026-10-02 13:53:00,Slack,mention,39,Team A,AI Engineer
+EVT00357,DEV004,2026-10-02 14:05:00,GitHub,commit,16,Team A,AI Engineer
+EVT00358,DEV004,2026-10-02 14:13:00,Slack,mention,5,Team A,AI Engineer
+EVT00359,DEV004,2026-10-02 14:21:00,Slack,mention,53,Team A,AI Engineer
+EVT00360,DEV004,2026-10-02 14:27:00,Slack,notification,51,Team A,AI Engineer
+EVT00361,DEV004,2026-10-02 14:33:00,GitHub,pull_request_opened,9,Team A,AI Engineer
+EVT00362,DEV004,2026-10-02 14:38:00,Jira,task_updated,43,Team A,AI Engineer
+EVT00363,DEV004,2026-10-02 14:40:00,GitHub,commit,23,Team A,AI Engineer
+EVT00364,DEV004,2026-10-02 14:52:00,Slack,mention,2,Team A,AI Engineer
+EVT00365,DEV004,2026-10-02 14:55:00,Slack,notification,9,Team A,AI Engineer
+EVT00366,DEV004,2026-10-02 15:00:00,IDE,debugging_session,48,Team A,AI Engineer
+EVT00367,DEV004,2026-10-02 15:16:00,GitHub,pull_request_opened,50,Team A,AI Engineer
+EVT00368,DEV004,2026-10-02 15:36:00,Jira,comment_added,7,Team A,AI Engineer
+EVT00369,DEV004,2026-10-02 15:45:00,IDE,debugging_session,40,Team A,AI Engineer
+EVT00370,DEV004,2026-10-02 16:08:00,GitHub,pull_request_merged,34,Team A,AI Engineer
+EVT00371,DEV004,2026-10-02 16:30:00,Jira,task_completed,2,Team A,AI Engineer
+EVT00372,DEV004,2026-10-02 16:44:00,GitHub,pull_request_opened,28,Team A,AI Engineer
+EVT00373,DEV004,2026-10-02 17:08:00,GitHub,pull_request_opened,59,Team A,AI Engineer
+EVT00374,DEV004,2026-10-02 17:12:00,IDE,coding_session,21,Team A,AI Engineer
+EVT00375,DEV004,2026-10-02 17:18:00,Slack,message,18,Team A,AI Engineer
+EVT00376,DEV004,2026-10-02 17:39:00,Jira,task_completed,34,Team A,AI Engineer
+EVT00377,DEV004,2026-10-02 17:57:00,Jira,task_completed,39,Team A,AI Engineer
+EVT00378,DEV004,2026-10-03 09:21:00,IDE,coding_session,8,Team A,AI Engineer
+EVT00379,DEV004,2026-10-03 09:37:00,Slack,notification,57,Team A,AI Engineer
+EVT00380,DEV004,2026-10-03 09:49:00,Slack,notification,53,Team A,AI Engineer
+EVT00381,DEV004,2026-10-03 10:04:00,IDE,context_switch,47,Team A,AI Engineer
+EVT00382,DEV004,2026-10-03 10:19:00,GitHub,pull_request_opened,21,Team A,AI Engineer
+EVT00383,DEV004,2026-10-03 10:25:00,Jira,task_completed,44,Team A,AI Engineer
+EVT00384,DEV004,2026-10-03 10:29:00,IDE,coding_session,54,Team A,AI Engineer
+EVT00385,DEV004,2026-10-03 10:44:00,GitHub,commit,7,Team A,AI Engineer
+EVT00386,DEV004,2026-10-03 11:03:00,Jira,task_updated,4,Team A,AI Engineer
+EVT00387,DEV004,2026-10-03 11:08:00,Jira,comment_added,27,Team A,AI Engineer
+EVT00388,DEV004,2026-10-03 11:23:00,Jira,comment_added,56,Team A,AI Engineer
+EVT00389,DEV004,2026-10-03 11:44:00,GitHub,pull_request_opened,20,Team A,AI Engineer
+EVT00390,DEV004,2026-10-03 12:04:00,Jira,task_updated,33,Team A,AI Engineer
+EVT00391,DEV004,2026-10-03 12:27:00,Slack,message,31,Team A,AI Engineer
+EVT00392,DEV004,2026-10-03 12:40:00,Slack,message,55,Team A,AI Engineer
+EVT00393,DEV004,2026-10-03 12:50:00,Jira,task_updated,37,Team A,AI Engineer
+EVT00394,DEV004,2026-10-03 13:09:00,Slack,notification,50,Team A,AI Engineer
+EVT00395,DEV004,2026-10-03 13:32:00,GitHub,pull_request_merged,54,Team A,AI Engineer
+EVT00396,DEV004,2026-10-03 13:39:00,Jira,task_updated,18,Team A,AI Engineer
+EVT00397,DEV004,2026-10-03 13:52:00,Jira,task_completed,1,Team A,AI Engineer
+EVT00398,DEV004,2026-10-03 14:12:00,Slack,message,43,Team A,AI Engineer
+EVT00399,DEV004,2026-10-03 14:18:00,IDE,coding_session,48,Team A,AI Engineer
+EVT00400,DEV004,2026-10-03 14:43:00,GitHub,commit,34,Team A,AI Engineer
+EVT00401,DEV005,2026-10-01 09:29:00,IDE,context_switch,22,Team A,Full Stack Developer
+EVT00402,DEV005,2026-10-01 09:40:00,Slack,notification,47,Team A,Full Stack Developer
+EVT00403,DEV005,2026-10-01 10:01:00,Jira,comment_added,6,Team A,Full Stack Developer
+EVT00404,DEV005,2026-10-01 10:08:00,GitHub,commit,49,Team A,Full Stack Developer
+EVT00405,DEV005,2026-10-01 10:12:00,GitHub,pull_request_merged,18,Team A,Full Stack Developer
+EVT00406,DEV005,2026-10-01 10:27:00,IDE,debugging_session,32,Team A,Full Stack Developer
+EVT00407,DEV005,2026-10-01 10:37:00,IDE,context_switch,14,Team A,Full Stack Developer
+EVT00408,DEV005,2026-10-01 10:52:00,GitHub,pull_request_opened,8,Team A,Full Stack Developer
+EVT00409,DEV005,2026-10-01 11:15:00,Jira,comment_added,38,Team A,Full Stack Developer
+EVT00410,DEV005,2026-10-01 11:38:00,IDE,debugging_session,20,Team A,Full Stack Developer
+EVT00411,DEV005,2026-10-01 11:52:00,GitHub,commit,39,Team A,Full Stack Developer
+EVT00412,DEV005,2026-10-01 12:00:00,GitHub,commit,20,Team A,Full Stack Developer
+EVT00413,DEV005,2026-10-01 12:10:00,Slack,message,19,Team A,Full Stack Developer
+EVT00414,DEV005,2026-10-01 12:12:00,Jira,task_updated,32,Team A,Full Stack Developer
+EVT00415,DEV005,2026-10-01 12:18:00,IDE,coding_session,25,Team A,Full Stack Developer
+EVT00416,DEV005,2026-10-01 12:37:00,Slack,mention,54,Team A,Full Stack Developer
+EVT00417,DEV005,2026-10-01 12:51:00,Jira,task_updated,56,Team A,Full Stack Developer
+EVT00418,DEV005,2026-10-01 12:53:00,GitHub,pull_request_opened,30,Team A,Full Stack Developer
+EVT00419,DEV005,2026-10-01 13:13:00,GitHub,pull_request_opened,28,Team A,Full Stack Developer
+EVT00420,DEV005,2026-10-01 13:35:00,IDE,debugging_session,27,Team A,Full Stack Developer
+EVT00421,DEV005,2026-10-01 13:49:00,Jira,task_updated,2,Team A,Full Stack Developer
+EVT00422,DEV005,2026-10-01 14:10:00,Jira,task_updated,30,Team A,Full Stack Developer
+EVT00423,DEV005,2026-10-01 14:25:00,Jira,task_updated,55,Team A,Full Stack Developer
+EVT00424,DEV005,2026-10-01 14:40:00,GitHub,commit,38,Team A,Full Stack Developer
+EVT00425,DEV005,2026-10-01 14:44:00,IDE,debugging_session,26,Team A,Full Stack Developer
+EVT00426,DEV005,2026-10-01 14:56:00,Jira,comment_added,15,Team A,Full Stack Developer
+EVT00427,DEV005,2026-10-01 15:00:00,Jira,task_updated,33,Team A,Full Stack Developer
+EVT00428,DEV005,2026-10-01 15:18:00,GitHub,pull_request_merged,13,Team A,Full Stack Developer
+EVT00429,DEV005,2026-10-01 15:43:00,Jira,task_completed,53,Team A,Full Stack Developer
+EVT00430,DEV005,2026-10-01 15:48:00,Slack,message,10,Team A,Full Stack Developer
+EVT00431,DEV005,2026-10-01 15:55:00,Jira,task_updated,39,Team A,Full Stack Developer
+EVT00432,DEV005,2026-10-01 15:59:00,Slack,mention,12,Team A,Full Stack Developer
+EVT00433,DEV005,2026-10-01 16:19:00,IDE,context_switch,49,Team A,Full Stack Developer
+EVT00434,DEV005,2026-10-01 16:39:00,IDE,debugging_session,42,Team A,Full Stack Developer
+EVT00435,DEV005,2026-10-01 16:51:00,Jira,comment_added,10,Team A,Full Stack Developer
+EVT00436,DEV005,2026-10-01 17:08:00,IDE,coding_session,29,Team A,Full Stack Developer
+EVT00437,DEV005,2026-10-01 17:28:00,Jira,task_completed,4,Team A,Full Stack Developer
+EVT00438,DEV005,2026-10-01 17:32:00,Jira,comment_added,20,Team A,Full Stack Developer
+EVT00439,DEV005,2026-10-01 17:35:00,IDE,context_switch,4,Team A,Full Stack Developer
+EVT00440,DEV005,2026-10-01 17:39:00,Jira,task_completed,42,Team A,Full Stack Developer
+EVT00441,DEV005,2026-10-02 09:00:00,GitHub,pull_request_merged,33,Team A,Full Stack Developer
+EVT00442,DEV005,2026-10-02 09:20:00,IDE,context_switch,36,Team A,Full Stack Developer
+EVT00443,DEV005,2026-10-02 09:40:00,GitHub,pull_request_opened,42,Team A,Full Stack Developer
+EVT00444,DEV005,2026-10-02 10:01:00,Slack,notification,31,Team A,Full Stack Developer
+EVT00445,DEV005,2026-10-02 10:17:00,Slack,message,7,Team A,Full Stack Developer
+EVT00446,DEV005,2026-10-02 10:21:00,Jira,comment_added,33,Team A,Full Stack Developer
+EVT00447,DEV005,2026-10-02 10:30:00,Slack,message,46,Team A,Full Stack Developer
+EVT00448,DEV005,2026-10-02 10:48:00,IDE,context_switch,34,Team A,Full Stack Developer
+EVT00449,DEV005,2026-10-02 11:01:00,Slack,notification,59,Team A,Full Stack Developer
+EVT00450,DEV005,2026-10-02 11:16:00,Jira,task_completed,50,Team A,Full Stack Developer
+EVT00451,DEV005,2026-10-02 11:37:00,Jira,comment_added,4,Team A,Full Stack Developer
+EVT00452,DEV005,2026-10-02 11:49:00,Jira,task_updated,7,Team A,Full Stack Developer
+EVT00453,DEV005,2026-10-02 11:59:00,IDE,context_switch,47,Team A,Full Stack Developer
+EVT00454,DEV005,2026-10-02 12:03:00,Slack,notification,38,Team A,Full Stack Developer
+EVT00455,DEV005,2026-10-02 12:14:00,Slack,notification,42,Team A,Full Stack Developer
+EVT00456,DEV005,2026-10-02 12:35:00,IDE,coding_session,46,Team A,Full Stack Developer
+EVT00457,DEV005,2026-10-02 12:54:00,GitHub,pull_request_opened,25,Team A,Full Stack Developer
+EVT00458,DEV005,2026-10-02 13:17:00,Jira,task_updated,45,Team A,Full Stack Developer
+EVT00459,DEV005,2026-10-02 13:40:00,GitHub,pull_request_merged,28,Team A,Full Stack Developer
+EVT00460,DEV005,2026-10-02 13:53:00,Jira,task_updated,20,Team A,Full Stack Developer
+EVT00461,DEV005,2026-10-02 14:05:00,Slack,message,50,Team A,Full Stack Developer
+EVT00462,DEV005,2026-10-02 14:14:00,IDE,coding_session,9,Team A,Full Stack Developer
+EVT00463,DEV005,2026-10-02 14:25:00,Slack,message,55,Team A,Full Stack Developer
+EVT00464,DEV005,2026-10-02 14:44:00,GitHub,pull_request_merged,54,Team A,Full Stack Developer
+EVT00465,DEV005,2026-10-02 14:56:00,GitHub,pull_request_merged,57,Team A,Full Stack Developer
+EVT00466,DEV005,2026-10-02 15:10:00,Slack,mention,10,Team A,Full Stack Developer
+EVT00467,DEV005,2026-10-02 15:34:00,Slack,message,50,Team A,Full Stack Developer
+EVT00468,DEV005,2026-10-02 15:50:00,Slack,mention,3,Team A,Full Stack Developer
+EVT00469,DEV005,2026-10-02 16:13:00,IDE,context_switch,47,Team A,Full Stack Developer
+EVT00470,DEV005,2026-10-02 16:34:00,Slack,notification,19,Team A,Full Stack Developer
+EVT00471,DEV005,2026-10-02 16:53:00,IDE,coding_session,16,Team A,Full Stack Developer
+EVT00472,DEV005,2026-10-02 17:01:00,Jira,task_completed,24,Team A,Full Stack Developer
+EVT00473,DEV005,2026-10-02 17:12:00,IDE,context_switch,50,Team A,Full Stack Developer
+EVT00474,DEV005,2026-10-02 17:30:00,IDE,debugging_session,27,Team A,Full Stack Developer
+EVT00475,DEV005,2026-10-02 17:51:00,Slack,message,9,Team A,Full Stack Developer
+EVT00476,DEV005,2026-10-03 09:13:00,Jira,task_updated,31,Team A,Full Stack Developer
+EVT00477,DEV005,2026-10-03 09:18:00,Jira,comment_added,46,Team A,Full Stack Developer
+EVT00478,DEV005,2026-10-03 09:22:00,GitHub,pull_request_opened,49,Team A,Full Stack Developer
+EVT00479,DEV005,2026-10-03 09:38:00,Slack,notification,58,Team A,Full Stack Developer
+EVT00480,DEV005,2026-10-03 09:42:00,Slack,notification,59,Team A,Full Stack Developer
+EVT00481,DEV005,2026-10-03 09:55:00,Slack,notification,60,Team A,Full Stack Developer
+EVT00482,DEV005,2026-10-03 09:58:00,GitHub,pull_request_opened,26,Team A,Full Stack Developer
+EVT00483,DEV005,2026-10-03 10:12:00,Jira,task_updated,6,Team A,Full Stack Developer
+EVT00484,DEV005,2026-10-03 10:14:00,Jira,task_updated,21,Team A,Full Stack Developer
+EVT00485,DEV005,2026-10-03 10:36:00,GitHub,pull_request_merged,22,Team A,Full Stack Developer
+EVT00486,DEV005,2026-10-03 10:39:00,Slack,message,19,Team A,Full Stack Developer
+EVT00487,DEV005,2026-10-03 10:45:00,IDE,debugging_session,49,Team A,Full Stack Developer
+EVT00488,DEV005,2026-10-03 11:06:00,IDE,context_switch,1,Team A,Full Stack Developer
+EVT00489,DEV005,2026-10-03 11:16:00,GitHub,commit,14,Team A,Full Stack Developer
+EVT00490,DEV005,2026-10-03 11:41:00,Slack,mention,39,Team A,Full Stack Developer
+EVT00491,DEV005,2026-10-03 11:52:00,IDE,coding_session,16,Team A,Full Stack Developer
+EVT00492,DEV005,2026-10-03 11:55:00,Jira,task_updated,16,Team A,Full Stack Developer
+EVT00493,DEV005,2026-10-03 12:16:00,IDE,debugging_session,30,Team A,Full Stack Developer
+EVT00494,DEV005,2026-10-03 12:33:00,GitHub,commit,39,Team A,Full Stack Developer
+EVT00495,DEV005,2026-10-03 12:51:00,GitHub,pull_request_merged,37,Team A,Full Stack Developer
+EVT00496,DEV005,2026-10-03 12:57:00,Slack,mention,19,Team A,Full Stack Developer
+EVT00497,DEV005,2026-10-03 13:18:00,IDE,coding_session,23,Team A,Full Stack Developer
+EVT00498,DEV005,2026-10-03 13:33:00,Slack,mention,12,Team A,Full Stack Developer
+EVT00499,DEV005,2026-10-03 13:46:00,GitHub,pull_request_merged,5,Team A,Full Stack Developer
+EVT00500,DEV005,2026-10-03 14:03:00,GitHub,pull_request_opened,3,Team A,Full Stack Developer
+EVT00501,DEV006,2026-10-01 09:50:00,IDE,context_switch,48,Team B,Backend Developer
+EVT00502,DEV006,2026-10-01 09:54:00,GitHub,pull_request_opened,23,Team B,Backend Developer
+EVT00503,DEV006,2026-10-01 10:17:00,Slack,mention,41,Team B,Backend Developer
+EVT00504,DEV006,2026-10-01 10:42:00,GitHub,pull_request_merged,49,Team B,Backend Developer
+EVT00505,DEV006,2026-10-01 10:45:00,Jira,task_updated,23,Team B,Backend Developer
+EVT00506,DEV006,2026-10-01 10:52:00,Jira,comment_added,54,Team B,Backend Developer
+EVT00507,DEV006,2026-10-01 11:09:00,IDE,debugging_session,41,Team B,Backend Developer
+EVT00508,DEV006,2026-10-01 11:13:00,Slack,message,46,Team B,Backend Developer
+EVT00509,DEV006,2026-10-01 11:24:00,IDE,coding_session,13,Team B,Backend Developer
+EVT00510,DEV006,2026-10-01 11:27:00,GitHub,commit,21,Team B,Backend Developer
+EVT00511,DEV006,2026-10-01 11:41:00,Jira,comment_added,53,Team B,Backend Developer
+EVT00512,DEV006,2026-10-01 11:44:00,IDE,context_switch,49,Team B,Backend Developer
+EVT00513,DEV006,2026-10-01 11:57:00,Slack,notification,56,Team B,Backend Developer
+EVT00514,DEV006,2026-10-01 12:09:00,GitHub,pull_request_merged,18,Team B,Backend Developer
+EVT00515,DEV006,2026-10-01 12:24:00,GitHub,pull_request_opened,57,Team B,Backend Developer
+EVT00516,DEV006,2026-10-01 12:40:00,IDE,debugging_session,58,Team B,Backend Developer
+EVT00517,DEV006,2026-10-01 12:47:00,IDE,context_switch,32,Team B,Backend Developer
+EVT00518,DEV006,2026-10-01 13:05:00,IDE,context_switch,18,Team B,Backend Developer
+EVT00519,DEV006,2026-10-01 13:20:00,GitHub,pull_request_merged,6,Team B,Backend Developer
+EVT00520,DEV006,2026-10-01 13:27:00,IDE,debugging_session,35,Team B,Backend Developer
+EVT00521,DEV006,2026-10-01 13:32:00,Jira,task_completed,6,Team B,Backend Developer
+EVT00522,DEV006,2026-10-01 13:43:00,Jira,comment_added,20,Team B,Backend Developer
+EVT00523,DEV006,2026-10-01 14:07:00,IDE,debugging_session,28,Team B,Backend Developer
+EVT00524,DEV006,2026-10-01 14:23:00,Slack,mention,23,Team B,Backend Developer
+EVT00525,DEV006,2026-10-01 14:48:00,IDE,coding_session,56,Team B,Backend Developer
+EVT00526,DEV006,2026-10-01 15:03:00,Jira,comment_added,18,Team B,Backend Developer
+EVT00527,DEV006,2026-10-01 15:26:00,GitHub,commit,41,Team B,Backend Developer
+EVT00528,DEV006,2026-10-01 15:44:00,IDE,context_switch,52,Team B,Backend Developer
+EVT00529,DEV006,2026-10-01 15:50:00,Slack,message,55,Team B,Backend Developer
+EVT00530,DEV006,2026-10-01 15:56:00,IDE,coding_session,5,Team B,Backend Developer
+EVT00531,DEV006,2026-10-01 16:09:00,Slack,mention,24,Team B,Backend Developer
+EVT00532,DEV006,2026-10-01 16:12:00,IDE,debugging_session,39,Team B,Backend Developer
+EVT00533,DEV006,2026-10-01 16:28:00,Slack,mention,24,Team B,Backend Developer
+EVT00534,DEV006,2026-10-01 16:32:00,Jira,task_completed,37,Team B,Backend Developer
+EVT00535,DEV006,2026-10-01 16:45:00,Slack,mention,26,Team B,Backend Developer
+EVT00536,DEV006,2026-10-01 16:55:00,Jira,comment_added,16,Team B,Backend Developer
+EVT00537,DEV006,2026-10-01 17:20:00,GitHub,commit,12,Team B,Backend Developer
+EVT00538,DEV006,2026-10-01 17:34:00,IDE,debugging_session,59,Team B,Backend Developer
+EVT00539,DEV006,2026-10-01 17:44:00,GitHub,pull_request_opened,46,Team B,Backend Developer
+EVT00540,DEV006,2026-10-02 09:05:00,IDE,coding_session,19,Team B,Backend Developer
+EVT00541,DEV006,2026-10-02 09:10:00,IDE,coding_session,9,Team B,Backend Developer
+EVT00542,DEV006,2026-10-02 09:17:00,GitHub,pull_request_opened,58,Team B,Backend Developer
+EVT00543,DEV006,2026-10-02 09:40:00,IDE,coding_session,55,Team B,Backend Developer
+EVT00544,DEV006,2026-10-02 09:53:00,Jira,comment_added,46,Team B,Backend Developer
+EVT00545,DEV006,2026-10-02 10:12:00,GitHub,pull_request_merged,19,Team B,Backend Developer
+EVT00546,DEV006,2026-10-02 10:36:00,Jira,task_updated,46,Team B,Backend Developer
+EVT00547,DEV006,2026-10-02 10:54:00,Slack,notification,15,Team B,Backend Developer
+EVT00548,DEV006,2026-10-02 11:00:00,GitHub,commit,16,Team B,Backend Developer
+EVT00549,DEV006,2026-10-02 11:13:00,IDE,coding_session,36,Team B,Backend Developer
+EVT00550,DEV006,2026-10-02 11:32:00,Jira,task_completed,9,Team B,Backend Developer
+EVT00551,DEV006,2026-10-02 11:43:00,GitHub,commit,26,Team B,Backend Developer
+EVT00552,DEV006,2026-10-02 11:58:00,IDE,debugging_session,50,Team B,Backend Developer
+EVT00553,DEV006,2026-10-02 12:02:00,IDE,debugging_session,9,Team B,Backend Developer
+EVT00554,DEV006,2026-10-02 12:06:00,Jira,comment_added,29,Team B,Backend Developer
+EVT00555,DEV006,2026-10-02 12:24:00,IDE,debugging_session,23,Team B,Backend Developer
+EVT00556,DEV006,2026-10-02 12:46:00,Slack,mention,38,Team B,Backend Developer
+EVT00557,DEV006,2026-10-02 13:01:00,Slack,message,33,Team B,Backend Developer
+EVT00558,DEV006,2026-10-02 13:19:00,GitHub,commit,10,Team B,Backend Developer
+EVT00559,DEV006,2026-10-02 13:26:00,Jira,task_updated,21,Team B,Backend Developer
+EVT00560,DEV006,2026-10-02 13:44:00,Slack,notification,58,Team B,Backend Developer
+EVT00561,DEV006,2026-10-02 13:54:00,Jira,task_updated,13,Team B,Backend Developer
+EVT00562,DEV006,2026-10-02 14:16:00,Jira,task_updated,20,Team B,Backend Developer
+EVT00563,DEV006,2026-10-02 14:38:00,GitHub,pull_request_merged,11,Team B,Backend Developer
+EVT00564,DEV006,2026-10-02 15:01:00,Slack,message,40,Team B,Backend Developer
+EVT00565,DEV006,2026-10-02 15:04:00,Jira,comment_added,53,Team B,Backend Developer
+EVT00566,DEV006,2026-10-02 15:07:00,GitHub,commit,42,Team B,Backend Developer
+EVT00567,DEV006,2026-10-02 15:15:00,Jira,comment_added,50,Team B,Backend Developer
+EVT00568,DEV006,2026-10-02 15:37:00,IDE,debugging_session,2,Team B,Backend Developer
+EVT00569,DEV006,2026-10-02 15:56:00,IDE,debugging_session,19,Team B,Backend Developer
+EVT00570,DEV006,2026-10-02 16:05:00,Jira,task_completed,52,Team B,Backend Developer
+EVT00571,DEV006,2026-10-02 16:21:00,IDE,context_switch,5,Team B,Backend Developer
+EVT00572,DEV006,2026-10-02 16:37:00,GitHub,commit,27,Team B,Backend Developer
+EVT00573,DEV006,2026-10-02 16:45:00,IDE,context_switch,22,Team B,Backend Developer
+EVT00574,DEV006,2026-10-02 17:09:00,Slack,notification,21,Team B,Backend Developer
+EVT00575,DEV006,2026-10-02 17:15:00,Jira,task_completed,49,Team B,Backend Developer
+EVT00576,DEV006,2026-10-02 17:34:00,Jira,comment_added,7,Team B,Backend Developer
+EVT00577,DEV006,2026-10-02 17:50:00,Jira,task_updated,8,Team B,Backend Developer
+EVT00578,DEV006,2026-10-02 17:59:00,Jira,task_completed,10,Team B,Backend Developer
+EVT00579,DEV006,2026-10-03 09:10:00,GitHub,commit,25,Team B,Backend Developer
+EVT00580,DEV006,2026-10-03 09:17:00,IDE,coding_session,53,Team B,Backend Developer
+EVT00581,DEV006,2026-10-03 09:42:00,Jira,comment_added,21,Team B,Backend Developer
+EVT00582,DEV006,2026-10-03 09:59:00,Slack,message,33,Team B,Backend Developer
+EVT00583,DEV006,2026-10-03 10:10:00,IDE,context_switch,32,Team B,Backend Developer
+EVT00584,DEV006,2026-10-03 10:24:00,GitHub,commit,33,Team B,Backend Developer
+EVT00585,DEV006,2026-10-03 10:32:00,IDE,coding_session,38,Team B,Backend Developer
+EVT00586,DEV006,2026-10-03 10:35:00,Jira,task_updated,19,Team B,Backend Developer
+EVT00587,DEV006,2026-10-03 10:57:00,IDE,debugging_session,44,Team B,Backend Developer
+EVT00588,DEV006,2026-10-03 11:16:00,IDE,context_switch,1,Team B,Backend Developer
+EVT00589,DEV006,2026-10-03 11:22:00,GitHub,pull_request_opened,57,Team B,Backend Developer
+EVT00590,DEV006,2026-10-03 11:35:00,Jira,comment_added,49,Team B,Backend Developer
+EVT00591,DEV006,2026-10-03 11:38:00,IDE,context_switch,26,Team B,Backend Developer
+EVT00592,DEV006,2026-10-03 11:57:00,GitHub,pull_request_merged,13,Team B,Backend Developer
+EVT00593,DEV006,2026-10-03 12:08:00,Jira,comment_added,5,Team B,Backend Developer
+EVT00594,DEV006,2026-10-03 12:24:00,IDE,debugging_session,49,Team B,Backend Developer
+EVT00595,DEV006,2026-10-03 12:47:00,Jira,comment_added,40,Team B,Backend Developer
+EVT00596,DEV006,2026-10-03 12:52:00,GitHub,commit,26,Team B,Backend Developer
+EVT00597,DEV006,2026-10-03 13:11:00,Jira,task_completed,24,Team B,Backend Developer
+EVT00598,DEV006,2026-10-03 13:32:00,Slack,message,33,Team B,Backend Developer
+EVT00599,DEV006,2026-10-03 13:35:00,IDE,debugging_session,3,Team B,Backend Developer
+EVT00600,DEV006,2026-10-03 13:59:00,GitHub,commit,22,Team B,Backend Developer
+EVT00601,DEV007,2026-10-01 10:07:00,IDE,debugging_session,10,Team B,Frontend Developer
+EVT00602,DEV007,2026-10-01 10:28:00,Slack,notification,21,Team B,Frontend Developer
+EVT00603,DEV007,2026-10-01 10:49:00,Slack,notification,48,Team B,Frontend Developer
+EVT00604,DEV007,2026-10-01 11:01:00,Jira,comment_added,33,Team B,Frontend Developer
+EVT00605,DEV007,2026-10-01 11:21:00,IDE,debugging_session,20,Team B,Frontend Developer
+EVT00606,DEV007,2026-10-01 11:34:00,IDE,coding_session,22,Team B,Frontend Developer
+EVT00607,DEV007,2026-10-01 11:54:00,GitHub,pull_request_opened,20,Team B,Frontend Developer
+EVT00608,DEV007,2026-10-01 12:11:00,GitHub,pull_request_merged,17,Team B,Frontend Developer
+EVT00609,DEV007,2026-10-01 12:14:00,Slack,mention,38,Team B,Frontend Developer
+EVT00610,DEV007,2026-10-01 12:32:00,IDE,coding_session,41,Team B,Frontend Developer
+EVT00611,DEV007,2026-10-01 12:55:00,IDE,coding_session,16,Team B,Frontend Developer
+EVT00612,DEV007,2026-10-01 13:19:00,GitHub,pull_request_merged,8,Team B,Frontend Developer
+EVT00613,DEV007,2026-10-01 13:35:00,Slack,message,21,Team B,Frontend Developer
+EVT00614,DEV007,2026-10-01 13:50:00,IDE,coding_session,45,Team B,Frontend Developer
+EVT00615,DEV007,2026-10-01 14:08:00,Slack,notification,50,Team B,Frontend Developer
+EVT00616,DEV007,2026-10-01 14:33:00,IDE,debugging_session,4,Team B,Frontend Developer
+EVT00617,DEV007,2026-10-01 14:41:00,Slack,mention,36,Team B,Frontend Developer
+EVT00618,DEV007,2026-10-01 14:58:00,Jira,comment_added,34,Team B,Frontend Developer
+EVT00619,DEV007,2026-10-01 15:05:00,IDE,context_switch,30,Team B,Frontend Developer
+EVT00620,DEV007,2026-10-01 15:18:00,Jira,comment_added,44,Team B,Frontend Developer
+EVT00621,DEV007,2026-10-01 15:35:00,Jira,comment_added,13,Team B,Frontend Developer
+EVT00622,DEV007,2026-10-01 15:54:00,Slack,notification,20,Team B,Frontend Developer
+EVT00623,DEV007,2026-10-01 16:05:00,Slack,notification,46,Team B,Frontend Developer
+EVT00624,DEV007,2026-10-01 16:29:00,Slack,mention,32,Team B,Frontend Developer
+EVT00625,DEV007,2026-10-01 16:42:00,Jira,task_completed,36,Team B,Frontend Developer
+EVT00626,DEV007,2026-10-01 16:47:00,Jira,task_completed,37,Team B,Frontend Developer
+EVT00627,DEV007,2026-10-01 17:00:00,IDE,context_switch,50,Team B,Frontend Developer
+EVT00628,DEV007,2026-10-01 17:03:00,Slack,notification,19,Team B,Frontend Developer
+EVT00629,DEV007,2026-10-01 17:19:00,GitHub,pull_request_opened,42,Team B,Frontend Developer
+EVT00630,DEV007,2026-10-01 17:36:00,Jira,comment_added,14,Team B,Frontend Developer
+EVT00631,DEV007,2026-10-01 17:46:00,Slack,mention,60,Team B,Frontend Developer
+EVT00632,DEV007,2026-10-01 17:51:00,Jira,task_updated,40,Team B,Frontend Developer
+EVT00633,DEV007,2026-10-01 17:54:00,Slack,message,43,Team B,Frontend Developer
+EVT00634,DEV007,2026-10-02 09:03:00,Slack,mention,4,Team B,Frontend Developer
+EVT00635,DEV007,2026-10-02 09:15:00,GitHub,pull_request_opened,46,Team B,Frontend Developer
+EVT00636,DEV007,2026-10-02 09:38:00,IDE,coding_session,50,Team B,Frontend Developer
+EVT00637,DEV007,2026-10-02 09:57:00,Slack,message,60,Team B,Frontend Developer
+EVT00638,DEV007,2026-10-02 10:19:00,Slack,notification,60,Team B,Frontend Developer
+EVT00639,DEV007,2026-10-02 10:41:00,IDE,context_switch,13,Team B,Frontend Developer
+EVT00640,DEV007,2026-10-02 10:52:00,Jira,task_completed,42,Team B,Frontend Developer
+EVT00641,DEV007,2026-10-02 11:14:00,GitHub,commit,37,Team B,Frontend Developer
+EVT00642,DEV007,2026-10-02 11:39:00,Slack,mention,47,Team B,Frontend Developer
+EVT00643,DEV007,2026-10-02 11:54:00,GitHub,commit,57,Team B,Frontend Developer
+EVT00644,DEV007,2026-10-02 12:08:00,Slack,message,51,Team B,Frontend Developer
+EVT00645,DEV007,2026-10-02 12:33:00,IDE,coding_session,56,Team B,Frontend Developer
+EVT00646,DEV007,2026-10-02 12:35:00,Jira,task_updated,20,Team B,Frontend Developer
+EVT00647,DEV007,2026-10-02 12:46:00,GitHub,pull_request_opened,30,Team B,Frontend Developer
+EVT00648,DEV007,2026-10-02 13:04:00,IDE,coding_session,30,Team B,Frontend Developer
+EVT00649,DEV007,2026-10-02 13:09:00,Jira,task_updated,22,Team B,Frontend Developer
+EVT00650,DEV007,2026-10-02 13:25:00,Slack,mention,42,Team B,Frontend Developer
+EVT00651,DEV007,2026-10-02 13:32:00,Jira,comment_added,1,Team B,Frontend Developer
+EVT00652,DEV007,2026-10-02 13:52:00,Jira,task_completed,44,Team B,Frontend Developer
+EVT00653,DEV007,2026-10-02 14:13:00,Slack,message,55,Team B,Frontend Developer
+EVT00654,DEV007,2026-10-02 14:31:00,IDE,context_switch,21,Team B,Frontend Developer
+EVT00655,DEV007,2026-10-02 14:54:00,GitHub,pull_request_opened,7,Team B,Frontend Developer
+EVT00656,DEV007,2026-10-02 15:11:00,Slack,message,21,Team B,Frontend Developer
+EVT00657,DEV007,2026-10-02 15:21:00,Slack,message,25,Team B,Frontend Developer
+EVT00658,DEV007,2026-10-02 15:31:00,Slack,notification,22,Team B,Frontend Developer
+EVT00659,DEV007,2026-10-02 15:56:00,Jira,comment_added,37,Team B,Frontend Developer
+EVT00660,DEV007,2026-10-02 16:18:00,GitHub,pull_request_opened,24,Team B,Frontend Developer
+EVT00661,DEV007,2026-10-02 16:41:00,Slack,message,8,Team B,Frontend Developer
+EVT00662,DEV007,2026-10-02 16:48:00,IDE,context_switch,26,Team B,Frontend Developer
+EVT00663,DEV007,2026-10-02 16:53:00,Jira,comment_added,41,Team B,Frontend Developer
+EVT00664,DEV007,2026-10-02 17:14:00,Jira,task_completed,15,Team B,Frontend Developer
+EVT00665,DEV007,2026-10-02 17:31:00,Slack,message,10,Team B,Frontend Developer
+EVT00666,DEV007,2026-10-02 17:52:00,IDE,debugging_session,24,Team B,Frontend Developer
+EVT00667,DEV007,2026-10-03 09:11:00,IDE,debugging_session,59,Team B,Frontend Developer
+EVT00668,DEV007,2026-10-03 09:34:00,IDE,debugging_session,53,Team B,Frontend Developer
+EVT00669,DEV007,2026-10-03 09:57:00,Slack,message,49,Team B,Frontend Developer
+EVT00670,DEV007,2026-10-03 10:13:00,GitHub,pull_request_merged,34,Team B,Frontend Developer
+EVT00671,DEV007,2026-10-03 10:33:00,Jira,task_updated,8,Team B,Frontend Developer
+EVT00672,DEV007,2026-10-03 10:51:00,GitHub,pull_request_merged,13,Team B,Frontend Developer
+EVT00673,DEV007,2026-10-03 11:03:00,Slack,message,55,Team B,Frontend Developer
+EVT00674,DEV007,2026-10-03 11:26:00,IDE,coding_session,14,Team B,Frontend Developer
+EVT00675,DEV007,2026-10-03 11:44:00,IDE,coding_session,29,Team B,Frontend Developer
+EVT00676,DEV007,2026-10-03 11:50:00,GitHub,pull_request_opened,33,Team B,Frontend Developer
+EVT00677,DEV007,2026-10-03 12:10:00,IDE,context_switch,4,Team B,Frontend Developer
+EVT00678,DEV007,2026-10-03 12:21:00,IDE,debugging_session,47,Team B,Frontend Developer
+EVT00679,DEV007,2026-10-03 12:31:00,GitHub,pull_request_opened,53,Team B,Frontend Developer
+EVT00680,DEV007,2026-10-03 12:39:00,GitHub,pull_request_merged,38,Team B,Frontend Developer
+EVT00681,DEV007,2026-10-03 12:54:00,GitHub,commit,23,Team B,Frontend Developer
+EVT00682,DEV007,2026-10-03 12:57:00,GitHub,pull_request_merged,60,Team B,Frontend Developer
+EVT00683,DEV007,2026-10-03 13:00:00,GitHub,pull_request_opened,19,Team B,Frontend Developer
+EVT00684,DEV007,2026-10-03 13:06:00,IDE,coding_session,50,Team B,Frontend Developer
+EVT00685,DEV007,2026-10-03 13:20:00,IDE,context_switch,29,Team B,Frontend Developer
+EVT00686,DEV007,2026-10-03 13:24:00,IDE,context_switch,44,Team B,Frontend Developer
+EVT00687,DEV007,2026-10-03 13:37:00,Slack,mention,8,Team B,Frontend Developer
+EVT00688,DEV007,2026-10-03 13:51:00,Slack,mention,34,Team B,Frontend Developer
+EVT00689,DEV007,2026-10-03 14:00:00,Slack,mention,54,Team B,Frontend Developer
+EVT00690,DEV007,2026-10-03 14:11:00,GitHub,commit,30,Team B,Frontend Developer
+EVT00691,DEV007,2026-10-03 14:25:00,IDE,debugging_session,53,Team B,Frontend Developer
+EVT00692,DEV007,2026-10-03 14:41:00,Slack,message,23,Team B,Frontend Developer
+EVT00693,DEV007,2026-10-03 14:49:00,Slack,notification,60,Team B,Frontend Developer
+EVT00694,DEV007,2026-10-03 15:12:00,GitHub,commit,27,Team B,Frontend Developer
+EVT00695,DEV007,2026-10-03 15:20:00,GitHub,commit,5,Team B,Frontend Developer
+EVT00696,DEV007,2026-10-03 15:23:00,GitHub,pull_request_merged,29,Team B,Frontend Developer
+EVT00697,DEV007,2026-10-03 15:48:00,GitHub,commit,3,Team B,Frontend Developer
+EVT00698,DEV007,2026-10-03 15:57:00,IDE,context_switch,35,Team B,Frontend Developer
+EVT00699,DEV007,2026-10-03 16:03:00,Slack,message,33,Team B,Frontend Developer
+EVT00700,DEV007,2026-10-03 16:28:00,Jira,task_updated,37,Team B,Frontend Developer
+EVT00701,DEV008,2026-10-01 09:31:00,Jira,task_updated,57,Team B,Data Engineer
+EVT00702,DEV008,2026-10-01 09:49:00,Slack,mention,15,Team B,Data Engineer
+EVT00703,DEV008,2026-10-01 09:59:00,IDE,context_switch,4,Team B,Data Engineer
+EVT00704,DEV008,2026-10-01 10:22:00,Slack,mention,28,Team B,Data Engineer
+EVT00705,DEV008,2026-10-01 10:35:00,IDE,coding_session,42,Team B,Data Engineer
+EVT00706,DEV008,2026-10-01 10:47:00,IDE,debugging_session,45,Team B,Data Engineer
+EVT00707,DEV008,2026-10-01 10:53:00,IDE,context_switch,20,Team B,Data Engineer
+EVT00708,DEV008,2026-10-01 11:12:00,IDE,coding_session,31,Team B,Data Engineer
+EVT00709,DEV008,2026-10-01 11:23:00,Slack,message,55,Team B,Data Engineer
+EVT00710,DEV008,2026-10-01 11:26:00,Slack,notification,36,Team B,Data Engineer
+EVT00711,DEV008,2026-10-01 11:45:00,IDE,context_switch,34,Team B,Data Engineer
+EVT00712,DEV008,2026-10-01 11:54:00,Slack,notification,17,Team B,Data Engineer
+EVT00713,DEV008,2026-10-01 12:16:00,Slack,notification,6,Team B,Data Engineer
+EVT00714,DEV008,2026-10-01 12:20:00,IDE,context_switch,35,Team B,Data Engineer
+EVT00715,DEV008,2026-10-01 12:30:00,Slack,message,25,Team B,Data Engineer
+EVT00716,DEV008,2026-10-01 12:38:00,GitHub,commit,52,Team B,Data Engineer
+EVT00717,DEV008,2026-10-01 12:46:00,Slack,notification,56,Team B,Data Engineer
+EVT00718,DEV008,2026-10-01 12:48:00,Jira,task_completed,14,Team B,Data Engineer
+EVT00719,DEV008,2026-10-01 12:53:00,Slack,mention,48,Team B,Data Engineer
+EVT00720,DEV008,2026-10-01 13:17:00,IDE,coding_session,39,Team B,Data Engineer
+EVT00721,DEV008,2026-10-01 13:26:00,Slack,notification,36,Team B,Data Engineer
+EVT00722,DEV008,2026-10-01 13:40:00,Jira,task_completed,30,Team B,Data Engineer
+EVT00723,DEV008,2026-10-01 13:50:00,Jira,task_completed,24,Team B,Data Engineer
+EVT00724,DEV008,2026-10-01 13:55:00,IDE,context_switch,52,Team B,Data Engineer
+EVT00725,DEV008,2026-10-01 14:03:00,IDE,context_switch,24,Team B,Data Engineer
+EVT00726,DEV008,2026-10-01 14:06:00,Jira,task_completed,37,Team B,Data Engineer
+EVT00727,DEV008,2026-10-01 14:12:00,Slack,mention,2,Team B,Data Engineer
+EVT00728,DEV008,2026-10-01 14:32:00,Jira,comment_added,38,Team B,Data Engineer
+EVT00729,DEV008,2026-10-01 14:38:00,IDE,context_switch,13,Team B,Data Engineer
+EVT00730,DEV008,2026-10-01 14:52:00,Jira,task_updated,37,Team B,Data Engineer
+EVT00731,DEV008,2026-10-01 15:11:00,Slack,notification,42,Team B,Data Engineer
+EVT00732,DEV008,2026-10-01 15:28:00,Jira,task_completed,47,Team B,Data Engineer
+EVT00733,DEV008,2026-10-01 15:35:00,IDE,context_switch,47,Team B,Data Engineer
+EVT00734,DEV008,2026-10-01 15:41:00,Jira,task_updated,47,Team B,Data Engineer
+EVT00735,DEV008,2026-10-01 16:00:00,IDE,coding_session,42,Team B,Data Engineer
+EVT00736,DEV008,2026-10-01 16:03:00,GitHub,pull_request_merged,54,Team B,Data Engineer
+EVT00737,DEV008,2026-10-01 16:06:00,GitHub,pull_request_merged,49,Team B,Data Engineer
+EVT00738,DEV008,2026-10-01 16:12:00,GitHub,pull_request_opened,54,Team B,Data Engineer
+EVT00739,DEV008,2026-10-01 16:36:00,Slack,message,10,Team B,Data Engineer
+EVT00740,DEV008,2026-10-01 16:54:00,GitHub,commit,30,Team B,Data Engineer
+EVT00741,DEV008,2026-10-01 17:15:00,Jira,task_updated,41,Team B,Data Engineer
+EVT00742,DEV008,2026-10-01 17:32:00,IDE,debugging_session,2,Team B,Data Engineer
+EVT00743,DEV008,2026-10-01 17:51:00,GitHub,pull_request_merged,27,Team B,Data Engineer
+EVT00744,DEV008,2026-10-02 09:09:00,GitHub,commit,47,Team B,Data Engineer
+EVT00745,DEV008,2026-10-02 09:20:00,Jira,comment_added,2,Team B,Data Engineer
+EVT00746,DEV008,2026-10-02 09:25:00,IDE,coding_session,59,Team B,Data Engineer
+EVT00747,DEV008,2026-10-02 09:31:00,GitHub,pull_request_merged,16,Team B,Data Engineer
+EVT00748,DEV008,2026-10-02 09:49:00,Slack,mention,17,Team B,Data Engineer
+EVT00749,DEV008,2026-10-02 10:03:00,Jira,task_completed,6,Team B,Data Engineer
+EVT00750,DEV008,2026-10-02 10:19:00,Jira,task_completed,37,Team B,Data Engineer
+EVT00751,DEV008,2026-10-02 10:28:00,Slack,mention,20,Team B,Data Engineer
+EVT00752,DEV008,2026-10-02 10:50:00,GitHub,pull_request_merged,49,Team B,Data Engineer
+EVT00753,DEV008,2026-10-02 11:04:00,GitHub,commit,25,Team B,Data Engineer
+EVT00754,DEV008,2026-10-02 11:21:00,IDE,debugging_session,4,Team B,Data Engineer
+EVT00755,DEV008,2026-10-02 11:28:00,GitHub,pull_request_merged,6,Team B,Data Engineer
+EVT00756,DEV008,2026-10-02 11:50:00,IDE,context_switch,51,Team B,Data Engineer
+EVT00757,DEV008,2026-10-02 11:55:00,Jira,comment_added,58,Team B,Data Engineer
+EVT00758,DEV008,2026-10-02 12:03:00,GitHub,commit,58,Team B,Data Engineer
+EVT00759,DEV008,2026-10-02 12:06:00,IDE,context_switch,60,Team B,Data Engineer
+EVT00760,DEV008,2026-10-02 12:16:00,GitHub,pull_request_merged,58,Team B,Data Engineer
+EVT00761,DEV008,2026-10-02 12:28:00,GitHub,commit,2,Team B,Data Engineer
+EVT00762,DEV008,2026-10-02 12:34:00,Slack,mention,49,Team B,Data Engineer
+EVT00763,DEV008,2026-10-02 12:45:00,IDE,coding_session,11,Team B,Data Engineer
+EVT00764,DEV008,2026-10-02 12:59:00,Slack,mention,44,Team B,Data Engineer
+EVT00765,DEV008,2026-10-02 13:24:00,Jira,task_completed,9,Team B,Data Engineer
+EVT00766,DEV008,2026-10-02 13:49:00,GitHub,pull_request_merged,23,Team B,Data Engineer
+EVT00767,DEV008,2026-10-02 14:04:00,GitHub,commit,15,Team B,Data Engineer
+EVT00768,DEV008,2026-10-02 14:25:00,GitHub,pull_request_opened,50,Team B,Data Engineer
+EVT00769,DEV008,2026-10-02 14:27:00,IDE,context_switch,41,Team B,Data Engineer
+EVT00770,DEV008,2026-10-02 14:44:00,Jira,task_completed,15,Team B,Data Engineer
+EVT00771,DEV008,2026-10-02 14:58:00,Jira,comment_added,28,Team B,Data Engineer
+EVT00772,DEV008,2026-10-02 15:18:00,Slack,mention,43,Team B,Data Engineer
+EVT00773,DEV008,2026-10-02 15:39:00,IDE,coding_session,19,Team B,Data Engineer
+EVT00774,DEV008,2026-10-02 15:43:00,Slack,mention,6,Team B,Data Engineer
+EVT00775,DEV008,2026-10-02 15:57:00,Jira,task_updated,46,Team B,Data Engineer
+EVT00776,DEV008,2026-10-02 16:11:00,Slack,mention,21,Team B,Data Engineer
+EVT00777,DEV008,2026-10-02 16:15:00,Jira,task_updated,1,Team B,Data Engineer
+EVT00778,DEV008,2026-10-02 16:28:00,Jira,task_completed,49,Team B,Data Engineer
+EVT00779,DEV008,2026-10-02 16:34:00,Jira,task_updated,6,Team B,Data Engineer
+EVT00780,DEV008,2026-10-02 16:50:00,Slack,notification,36,Team B,Data Engineer
+EVT00781,DEV008,2026-10-02 16:52:00,IDE,coding_session,6,Team B,Data Engineer
+EVT00782,DEV008,2026-10-02 16:56:00,Jira,comment_added,39,Team B,Data Engineer
+EVT00783,DEV008,2026-10-02 16:58:00,Jira,task_completed,19,Team B,Data Engineer
+EVT00784,DEV008,2026-10-02 17:02:00,IDE,context_switch,47,Team B,Data Engineer
+EVT00785,DEV008,2026-10-02 17:20:00,Slack,mention,11,Team B,Data Engineer
+EVT00786,DEV008,2026-10-02 17:26:00,IDE,coding_session,18,Team B,Data Engineer
+EVT00787,DEV008,2026-10-02 17:43:00,Jira,task_completed,10,Team B,Data Engineer
+EVT00788,DEV008,2026-10-02 17:58:00,GitHub,commit,18,Team B,Data Engineer
+EVT00789,DEV008,2026-10-03 09:15:00,IDE,context_switch,51,Team B,Data Engineer
+EVT00790,DEV008,2026-10-03 09:25:00,GitHub,pull_request_opened,16,Team B,Data Engineer
+EVT00791,DEV008,2026-10-03 09:46:00,IDE,debugging_session,13,Team B,Data Engineer
+EVT00792,DEV008,2026-10-03 09:52:00,IDE,coding_session,20,Team B,Data Engineer
+EVT00793,DEV008,2026-10-03 10:04:00,GitHub,pull_request_opened,54,Team B,Data Engineer
+EVT00794,DEV008,2026-10-03 10:20:00,IDE,context_switch,22,Team B,Data Engineer
+EVT00795,DEV008,2026-10-03 10:41:00,IDE,debugging_session,9,Team B,Data Engineer
+EVT00796,DEV008,2026-10-03 11:02:00,Jira,task_completed,45,Team B,Data Engineer
+EVT00797,DEV008,2026-10-03 11:14:00,Slack,notification,12,Team B,Data Engineer
+EVT00798,DEV008,2026-10-03 11:25:00,IDE,context_switch,48,Team B,Data Engineer
+EVT00799,DEV008,2026-10-03 11:34:00,IDE,debugging_session,21,Team B,Data Engineer
+EVT00800,DEV008,2026-10-03 11:48:00,IDE,context_switch,24,Team B,Data Engineer
+EVT00801,DEV009,2026-10-01 09:26:00,Slack,mention,12,Team B,AI Engineer
+EVT00802,DEV009,2026-10-01 09:42:00,GitHub,pull_request_merged,46,Team B,AI Engineer
+EVT00803,DEV009,2026-10-01 09:53:00,Slack,notification,54,Team B,AI Engineer
+EVT00804,DEV009,2026-10-01 10:16:00,GitHub,pull_request_opened,32,Team B,AI Engineer
+EVT00805,DEV009,2026-10-01 10:27:00,Slack,mention,16,Team B,AI Engineer
+EVT00806,DEV009,2026-10-01 10:33:00,Jira,comment_added,46,Team B,AI Engineer
+EVT00807,DEV009,2026-10-01 10:37:00,IDE,context_switch,29,Team B,AI Engineer
+EVT00808,DEV009,2026-10-01 10:51:00,IDE,debugging_session,35,Team B,AI Engineer
+EVT00809,DEV009,2026-10-01 10:54:00,IDE,debugging_session,51,Team B,AI Engineer
+EVT00810,DEV009,2026-10-01 11:13:00,Jira,comment_added,39,Team B,AI Engineer
+EVT00811,DEV009,2026-10-01 11:22:00,GitHub,commit,43,Team B,AI Engineer
+EVT00812,DEV009,2026-10-01 11:44:00,Jira,task_updated,40,Team B,AI Engineer
+EVT00813,DEV009,2026-10-01 12:06:00,GitHub,pull_request_merged,44,Team B,AI Engineer
+EVT00814,DEV009,2026-10-01 12:21:00,IDE,context_switch,7,Team B,AI Engineer
+EVT00815,DEV009,2026-10-01 12:31:00,GitHub,commit,15,Team B,AI Engineer
+EVT00816,DEV009,2026-10-01 12:44:00,Slack,notification,26,Team B,AI Engineer
+EVT00817,DEV009,2026-10-01 13:04:00,IDE,debugging_session,45,Team B,AI Engineer
+EVT00818,DEV009,2026-10-01 13:06:00,Slack,notification,31,Team B,AI Engineer
+EVT00819,DEV009,2026-10-01 13:21:00,GitHub,pull_request_opened,59,Team B,AI Engineer
+EVT00820,DEV009,2026-10-01 13:46:00,GitHub,commit,10,Team B,AI Engineer
+EVT00821,DEV009,2026-10-01 13:58:00,Jira,task_completed,30,Team B,AI Engineer
+EVT00822,DEV009,2026-10-01 14:15:00,Slack,mention,23,Team B,AI Engineer
+EVT00823,DEV009,2026-10-01 14:31:00,IDE,coding_session,47,Team B,AI Engineer
+EVT00824,DEV009,2026-10-01 14:35:00,IDE,context_switch,20,Team B,AI Engineer
+EVT00825,DEV009,2026-10-01 14:40:00,GitHub,pull_request_merged,2,Team B,AI Engineer
+EVT00826,DEV009,2026-10-01 14:45:00,Jira,comment_added,44,Team B,AI Engineer
+EVT00827,DEV009,2026-10-01 14:54:00,Slack,mention,34,Team B,AI Engineer
+EVT00828,DEV009,2026-10-01 15:01:00,Slack,mention,22,Team B,AI Engineer
+EVT00829,DEV009,2026-10-01 15:10:00,IDE,context_switch,52,Team B,AI Engineer
+EVT00830,DEV009,2026-10-01 15:17:00,IDE,debugging_session,12,Team B,AI Engineer
+EVT00831,DEV009,2026-10-01 15:19:00,IDE,context_switch,48,Team B,AI Engineer
+EVT00832,DEV009,2026-10-01 15:39:00,Slack,notification,28,Team B,AI Engineer
+EVT00833,DEV009,2026-10-01 16:03:00,IDE,coding_session,14,Team B,AI Engineer
+EVT00834,DEV009,2026-10-01 16:27:00,Slack,notification,52,Team B,AI Engineer
+EVT00835,DEV009,2026-10-01 16:32:00,GitHub,pull_request_merged,52,Team B,AI Engineer
+EVT00836,DEV009,2026-10-01 16:44:00,Slack,notification,13,Team B,AI Engineer
+EVT00837,DEV009,2026-10-01 16:54:00,IDE,coding_session,43,Team B,AI Engineer
+EVT00838,DEV009,2026-10-01 17:16:00,IDE,debugging_session,21,Team B,AI Engineer
+EVT00839,DEV009,2026-10-01 17:30:00,IDE,debugging_session,38,Team B,AI Engineer
+EVT00840,DEV009,2026-10-01 17:43:00,GitHub,pull_request_opened,55,Team B,AI Engineer
+EVT00841,DEV009,2026-10-01 17:50:00,IDE,debugging_session,53,Team B,AI Engineer
+EVT00842,DEV009,2026-10-02 09:10:00,Jira,comment_added,6,Team B,AI Engineer
+EVT00843,DEV009,2026-10-02 09:15:00,Slack,notification,16,Team B,AI Engineer
+EVT00844,DEV009,2026-10-02 09:22:00,Jira,task_updated,24,Team B,AI Engineer
+EVT00845,DEV009,2026-10-02 09:36:00,Slack,mention,27,Team B,AI Engineer
+EVT00846,DEV009,2026-10-02 09:50:00,Slack,mention,28,Team B,AI Engineer
+EVT00847,DEV009,2026-10-02 10:12:00,Slack,notification,35,Team B,AI Engineer
+EVT00848,DEV009,2026-10-02 10:19:00,Slack,mention,32,Team B,AI Engineer
+EVT00849,DEV009,2026-10-02 10:26:00,Jira,task_updated,21,Team B,AI Engineer
+EVT00850,DEV009,2026-10-02 10:29:00,IDE,debugging_session,56,Team B,AI Engineer
+EVT00851,DEV009,2026-10-02 10:46:00,Jira,task_updated,9,Team B,AI Engineer
+EVT00852,DEV009,2026-10-02 11:05:00,Slack,notification,33,Team B,AI Engineer
+EVT00853,DEV009,2026-10-02 11:28:00,IDE,context_switch,32,Team B,AI Engineer
+EVT00854,DEV009,2026-10-02 11:44:00,IDE,debugging_session,32,Team B,AI Engineer
+EVT00855,DEV009,2026-10-02 12:04:00,Slack,message,2,Team B,AI Engineer
+EVT00856,DEV009,2026-10-02 12:07:00,Slack,notification,18,Team B,AI Engineer
+EVT00857,DEV009,2026-10-02 12:18:00,Slack,mention,11,Team B,AI Engineer
+EVT00858,DEV009,2026-10-02 12:43:00,IDE,debugging_session,50,Team B,AI Engineer
+EVT00859,DEV009,2026-10-02 13:01:00,IDE,debugging_session,8,Team B,AI Engineer
+EVT00860,DEV009,2026-10-02 13:20:00,GitHub,pull_request_opened,53,Team B,AI Engineer
+EVT00861,DEV009,2026-10-02 13:23:00,Jira,comment_added,49,Team B,AI Engineer
+EVT00862,DEV009,2026-10-02 13:31:00,IDE,debugging_session,28,Team B,AI Engineer
+EVT00863,DEV009,2026-10-02 13:53:00,GitHub,pull_request_merged,49,Team B,AI Engineer
+EVT00864,DEV009,2026-10-02 13:56:00,Slack,notification,29,Team B,AI Engineer
+EVT00865,DEV009,2026-10-02 14:00:00,Jira,task_completed,29,Team B,AI Engineer
+EVT00866,DEV009,2026-10-02 14:08:00,GitHub,commit,52,Team B,AI Engineer
+EVT00867,DEV009,2026-10-02 14:29:00,Jira,comment_added,41,Team B,AI Engineer
+EVT00868,DEV009,2026-10-02 14:50:00,IDE,coding_session,9,Team B,AI Engineer
+EVT00869,DEV009,2026-10-02 14:53:00,Slack,message,37,Team B,AI Engineer
+EVT00870,DEV009,2026-10-02 15:03:00,Jira,comment_added,39,Team B,AI Engineer
+EVT00871,DEV009,2026-10-02 15:27:00,Slack,notification,19,Team B,AI Engineer
+EVT00872,DEV009,2026-10-02 15:37:00,Jira,comment_added,55,Team B,AI Engineer
+EVT00873,DEV009,2026-10-02 15:52:00,GitHub,commit,59,Team B,AI Engineer
+EVT00874,DEV009,2026-10-02 16:14:00,GitHub,pull_request_opened,9,Team B,AI Engineer
+EVT00875,DEV009,2026-10-02 16:20:00,Slack,message,46,Team B,AI Engineer
+EVT00876,DEV009,2026-10-02 16:43:00,Jira,task_updated,26,Team B,AI Engineer
+EVT00877,DEV009,2026-10-02 17:03:00,IDE,coding_session,41,Team B,AI Engineer
+EVT00878,DEV009,2026-10-02 17:18:00,Jira,comment_added,25,Team B,AI Engineer
+EVT00879,DEV009,2026-10-02 17:40:00,IDE,coding_session,51,Team B,AI Engineer
+EVT00880,DEV009,2026-10-02 17:58:00,GitHub,pull_request_opened,48,Team B,AI Engineer
+EVT00881,DEV009,2026-10-03 09:11:00,Jira,comment_added,30,Team B,AI Engineer
+EVT00882,DEV009,2026-10-03 09:31:00,IDE,context_switch,1,Team B,AI Engineer
+EVT00883,DEV009,2026-10-03 09:47:00,GitHub,pull_request_merged,41,Team B,AI Engineer
+EVT00884,DEV009,2026-10-03 10:06:00,Jira,task_updated,26,Team B,AI Engineer
+EVT00885,DEV009,2026-10-03 10:14:00,Slack,notification,32,Team B,AI Engineer
+EVT00886,DEV009,2026-10-03 10:25:00,Jira,task_completed,22,Team B,AI Engineer
+EVT00887,DEV009,2026-10-03 10:42:00,Slack,mention,51,Team B,AI Engineer
+EVT00888,DEV009,2026-10-03 10:45:00,Jira,comment_added,3,Team B,AI Engineer
+EVT00889,DEV009,2026-10-03 11:01:00,GitHub,pull_request_merged,2,Team B,AI Engineer
+EVT00890,DEV009,2026-10-03 11:17:00,GitHub,commit,30,Team B,AI Engineer
+EVT00891,DEV009,2026-10-03 11:25:00,GitHub,pull_request_opened,45,Team B,AI Engineer
+EVT00892,DEV009,2026-10-03 11:36:00,Slack,mention,11,Team B,AI Engineer
+EVT00893,DEV009,2026-10-03 11:58:00,Jira,task_updated,24,Team B,AI Engineer
+EVT00894,DEV009,2026-10-03 12:11:00,Jira,task_updated,43,Team B,AI Engineer
+EVT00895,DEV009,2026-10-03 12:25:00,Slack,message,41,Team B,AI Engineer
+EVT00896,DEV009,2026-10-03 12:49:00,Jira,comment_added,49,Team B,AI Engineer
+EVT00897,DEV009,2026-10-03 13:11:00,Slack,notification,6,Team B,AI Engineer
+EVT00898,DEV009,2026-10-03 13:19:00,GitHub,commit,31,Team B,AI Engineer
+EVT00899,DEV009,2026-10-03 13:39:00,GitHub,commit,15,Team B,AI Engineer
+EVT00900,DEV009,2026-10-03 13:41:00,IDE,coding_session,45,Team B,AI Engineer
+EVT00901,DEV010,2026-10-01 09:45:00,GitHub,pull_request_opened,9,Team B,Full Stack Developer
+EVT00902,DEV010,2026-10-01 09:54:00,IDE,coding_session,25,Team B,Full Stack Developer
+EVT00903,DEV010,2026-10-01 09:59:00,GitHub,pull_request_merged,7,Team B,Full Stack Developer
+EVT00904,DEV010,2026-10-01 10:10:00,Jira,task_completed,9,Team B,Full Stack Developer
+EVT00905,DEV010,2026-10-01 10:32:00,IDE,coding_session,44,Team B,Full Stack Developer
+EVT00906,DEV010,2026-10-01 10:50:00,Slack,message,37,Team B,Full Stack Developer
+EVT00907,DEV010,2026-10-01 11:12:00,GitHub,pull_request_merged,11,Team B,Full Stack Developer
+EVT00908,DEV010,2026-10-01 11:37:00,IDE,context_switch,14,Team B,Full Stack Developer
+EVT00909,DEV010,2026-10-01 11:58:00,Slack,notification,44,Team B,Full Stack Developer
+EVT00910,DEV010,2026-10-01 12:02:00,IDE,coding_session,58,Team B,Full Stack Developer
+EVT00911,DEV010,2026-10-01 12:07:00,GitHub,commit,38,Team B,Full Stack Developer
+EVT00912,DEV010,2026-10-01 12:22:00,IDE,context_switch,21,Team B,Full Stack Developer
+EVT00913,DEV010,2026-10-01 12:32:00,Slack,message,42,Team B,Full Stack Developer
+EVT00914,DEV010,2026-10-01 12:51:00,GitHub,commit,39,Team B,Full Stack Developer
+EVT00915,DEV010,2026-10-01 12:53:00,Jira,comment_added,55,Team B,Full Stack Developer
+EVT00916,DEV010,2026-10-01 13:11:00,Jira,task_updated,39,Team B,Full Stack Developer
+EVT00917,DEV010,2026-10-01 13:25:00,Slack,mention,19,Team B,Full Stack Developer
+EVT00918,DEV010,2026-10-01 13:42:00,GitHub,commit,25,Team B,Full Stack Developer
+EVT00919,DEV010,2026-10-01 13:59:00,GitHub,commit,41,Team B,Full Stack Developer
+EVT00920,DEV010,2026-10-01 14:01:00,GitHub,pull_request_merged,24,Team B,Full Stack Developer
+EVT00921,DEV010,2026-10-01 14:15:00,Jira,task_updated,56,Team B,Full Stack Developer
+EVT00922,DEV010,2026-10-01 14:34:00,IDE,context_switch,44,Team B,Full Stack Developer
+EVT00923,DEV010,2026-10-01 14:38:00,Slack,notification,2,Team B,Full Stack Developer
+EVT00924,DEV010,2026-10-01 14:48:00,GitHub,commit,14,Team B,Full Stack Developer
+EVT00925,DEV010,2026-10-01 15:02:00,GitHub,commit,33,Team B,Full Stack Developer
+EVT00926,DEV010,2026-10-01 15:26:00,Jira,comment_added,33,Team B,Full Stack Developer
+EVT00927,DEV010,2026-10-01 15:50:00,IDE,context_switch,26,Team B,Full Stack Developer
+EVT00928,DEV010,2026-10-01 16:09:00,GitHub,pull_request_merged,35,Team B,Full Stack Developer
+EVT00929,DEV010,2026-10-01 16:13:00,Slack,notification,20,Team B,Full Stack Developer
+EVT00930,DEV010,2026-10-01 16:21:00,GitHub,pull_request_merged,52,Team B,Full Stack Developer
+EVT00931,DEV010,2026-10-01 16:33:00,Slack,mention,26,Team B,Full Stack Developer
+EVT00932,DEV010,2026-10-01 16:57:00,GitHub,pull_request_opened,28,Team B,Full Stack Developer
+EVT00933,DEV010,2026-10-01 17:06:00,Slack,message,6,Team B,Full Stack Developer
+EVT00934,DEV010,2026-10-01 17:22:00,IDE,coding_session,40,Team B,Full Stack Developer
+EVT00935,DEV010,2026-10-01 17:45:00,GitHub,pull_request_opened,48,Team B,Full Stack Developer
+EVT00936,DEV010,2026-10-01 17:47:00,Slack,message,46,Team B,Full Stack Developer
+EVT00937,DEV010,2026-10-01 17:49:00,Slack,mention,11,Team B,Full Stack Developer
+EVT00938,DEV010,2026-10-02 09:07:00,IDE,context_switch,34,Team B,Full Stack Developer
+EVT00939,DEV010,2026-10-02 09:20:00,Jira,task_updated,9,Team B,Full Stack Developer
+EVT00940,DEV010,2026-10-02 09:25:00,Jira,comment_added,50,Team B,Full Stack Developer
+EVT00941,DEV010,2026-10-02 09:40:00,GitHub,pull_request_opened,18,Team B,Full Stack Developer
+EVT00942,DEV010,2026-10-02 10:04:00,GitHub,pull_request_opened,37,Team B,Full Stack Developer
+EVT00943,DEV010,2026-10-02 10:20:00,GitHub,pull_request_opened,33,Team B,Full Stack Developer
+EVT00944,DEV010,2026-10-02 10:37:00,Jira,task_updated,55,Team B,Full Stack Developer
+EVT00945,DEV010,2026-10-02 10:44:00,Slack,notification,17,Team B,Full Stack Developer
+EVT00946,DEV010,2026-10-02 11:07:00,GitHub,pull_request_merged,47,Team B,Full Stack Developer
+EVT00947,DEV010,2026-10-02 11:32:00,GitHub,commit,33,Team B,Full Stack Developer
+EVT00948,DEV010,2026-10-02 11:34:00,GitHub,commit,16,Team B,Full Stack Developer
+EVT00949,DEV010,2026-10-02 11:47:00,GitHub,pull_request_opened,25,Team B,Full Stack Developer
+EVT00950,DEV010,2026-10-02 11:50:00,Slack,message,36,Team B,Full Stack Developer
+EVT00951,DEV010,2026-10-02 12:02:00,IDE,coding_session,16,Team B,Full Stack Developer
+EVT00952,DEV010,2026-10-02 12:14:00,IDE,debugging_session,18,Team B,Full Stack Developer
+EVT00953,DEV010,2026-10-02 12:27:00,GitHub,pull_request_merged,8,Team B,Full Stack Developer
+EVT00954,DEV010,2026-10-02 12:36:00,GitHub,commit,52,Team B,Full Stack Developer
+EVT00955,DEV010,2026-10-02 12:40:00,GitHub,pull_request_opened,57,Team B,Full Stack Developer
+EVT00956,DEV010,2026-10-02 12:51:00,IDE,context_switch,21,Team B,Full Stack Developer
+EVT00957,DEV010,2026-10-02 13:07:00,GitHub,pull_request_merged,1,Team B,Full Stack Developer
+EVT00958,DEV010,2026-10-02 13:18:00,Jira,task_updated,37,Team B,Full Stack Developer
+EVT00959,DEV010,2026-10-02 13:39:00,Jira,comment_added,16,Team B,Full Stack Developer
+EVT00960,DEV010,2026-10-02 13:59:00,IDE,context_switch,32,Team B,Full Stack Developer
+EVT00961,DEV010,2026-10-02 14:18:00,Slack,mention,49,Team B,Full Stack Developer
+EVT00962,DEV010,2026-10-02 14:20:00,Slack,message,60,Team B,Full Stack Developer
+EVT00963,DEV010,2026-10-02 14:29:00,IDE,coding_session,35,Team B,Full Stack Developer
+EVT00964,DEV010,2026-10-02 14:53:00,Jira,comment_added,57,Team B,Full Stack Developer
+EVT00965,DEV010,2026-10-02 14:55:00,GitHub,pull_request_opened,49,Team B,Full Stack Developer
+EVT00966,DEV010,2026-10-02 15:20:00,IDE,debugging_session,20,Team B,Full Stack Developer
+EVT00967,DEV010,2026-10-02 15:38:00,GitHub,commit,16,Team B,Full Stack Developer
+EVT00968,DEV010,2026-10-02 15:41:00,IDE,context_switch,10,Team B,Full Stack Developer
+EVT00969,DEV010,2026-10-02 15:44:00,Jira,task_updated,59,Team B,Full Stack Developer
+EVT00970,DEV010,2026-10-02 15:59:00,Slack,mention,45,Team B,Full Stack Developer
+EVT00971,DEV010,2026-10-02 16:24:00,Jira,task_completed,6,Team B,Full Stack Developer
+EVT00972,DEV010,2026-10-02 16:30:00,GitHub,pull_request_merged,41,Team B,Full Stack Developer
+EVT00973,DEV010,2026-10-02 16:50:00,IDE,coding_session,37,Team B,Full Stack Developer
+EVT00974,DEV010,2026-10-02 17:13:00,GitHub,pull_request_opened,9,Team B,Full Stack Developer
+EVT00975,DEV010,2026-10-02 17:23:00,Slack,notification,55,Team B,Full Stack Developer
+EVT00976,DEV010,2026-10-02 17:47:00,Jira,task_completed,54,Team B,Full Stack Developer
+EVT00977,DEV010,2026-10-03 09:03:00,Jira,task_completed,18,Team B,Full Stack Developer
+EVT00978,DEV010,2026-10-03 09:11:00,Slack,message,9,Team B,Full Stack Developer
+EVT00979,DEV010,2026-10-03 09:16:00,GitHub,commit,11,Team B,Full Stack Developer
+EVT00980,DEV010,2026-10-03 09:28:00,IDE,context_switch,27,Team B,Full Stack Developer
+EVT00981,DEV010,2026-10-03 09:41:00,GitHub,pull_request_merged,50,Team B,Full Stack Developer
+EVT00982,DEV010,2026-10-03 09:52:00,Slack,notification,30,Team B,Full Stack Developer
+EVT00983,DEV010,2026-10-03 09:56:00,Jira,task_updated,11,Team B,Full Stack Developer
+EVT00984,DEV010,2026-10-03 10:20:00,Jira,comment_added,39,Team B,Full Stack Developer
+EVT00985,DEV010,2026-10-03 10:32:00,GitHub,commit,10,Team B,Full Stack Developer
+EVT00986,DEV010,2026-10-03 10:41:00,GitHub,pull_request_merged,23,Team B,Full Stack Developer
+EVT00987,DEV010,2026-10-03 10:44:00,IDE,debugging_session,44,Team B,Full Stack Developer
+EVT00988,DEV010,2026-10-03 10:51:00,Jira,task_completed,2,Team B,Full Stack Developer
+EVT00989,DEV010,2026-10-03 11:10:00,IDE,context_switch,48,Team B,Full Stack Developer
+EVT00990,DEV010,2026-10-03 11:26:00,Slack,message,7,Team B,Full Stack Developer
+EVT00991,DEV010,2026-10-03 11:28:00,Slack,message,4,Team B,Full Stack Developer
+EVT00992,DEV010,2026-10-03 11:36:00,Slack,message,53,Team B,Full Stack Developer
+EVT00993,DEV010,2026-10-03 11:59:00,IDE,context_switch,41,Team B,Full Stack Developer
+EVT00994,DEV010,2026-10-03 12:19:00,GitHub,pull_request_merged,17,Team B,Full Stack Developer
+EVT00995,DEV010,2026-10-03 12:23:00,GitHub,commit,13,Team B,Full Stack Developer
+EVT00996,DEV010,2026-10-03 12:27:00,IDE,coding_session,58,Team B,Full Stack Developer
+EVT00997,DEV010,2026-10-03 12:30:00,Jira,task_updated,30,Team B,Full Stack Developer
+EVT00998,DEV010,2026-10-03 12:50:00,GitHub,commit,28,Team B,Full Stack Developer
+EVT00999,DEV010,2026-10-03 12:52:00,IDE,context_switch,25,Team B,Full Stack Developer
+EVT01000,DEV010,2026-10-03 13:05:00,IDE,coding_session,14,Team B,Full Stack Developer
