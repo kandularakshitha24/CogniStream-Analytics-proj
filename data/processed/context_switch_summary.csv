@@ -1,0 +1,11 @@
+developer_id,team,role,consecutive_event_pairs,source_change_count,rapid_source_change_count,long_inactivity_gap_count,average_gap_minutes
+DEV001,Team A,Backend Developer,99,71,38,2,31.68
+DEV002,Team A,Frontend Developer,99,78,46,2,31.95
+DEV003,Team A,Data Engineer,99,75,39,2,31.23
+DEV004,Team A,AI Engineer,99,76,41,2,32.28
+DEV005,Team A,Full Stack Developer,99,75,44,2,31.86
+DEV006,Team B,Backend Developer,99,85,48,2,31.61
+DEV007,Team B,Frontend Developer,99,69,31,2,32.94
+DEV008,Team B,Data Engineer,99,76,47,2,30.47
+DEV009,Team B,AI Engineer,99,78,43,2,31.67
+DEV010,Team B,Full Stack Developer,99,76,44,2,31.11

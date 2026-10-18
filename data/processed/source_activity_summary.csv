@@ -1,0 +1,5 @@
+source,total_events,total_recorded_duration_minutes,average_event_duration_minutes
+IDE,274,8590,31.35
+Jira,252,7599,30.15
+GitHub,238,7232,30.39
+Slack,236,7464,31.63

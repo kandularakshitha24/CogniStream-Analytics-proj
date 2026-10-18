@@ -1,0 +1,11 @@
+developer_id,team,role,total_events,total_recorded_duration_minutes,average_event_duration_minutes,unique_sources
+DEV001,Team A,Backend Developer,100,2969,29.69,4
+DEV002,Team A,Frontend Developer,100,3312,33.12,4
+DEV003,Team A,Data Engineer,100,3049,30.49,4
+DEV004,Team A,AI Engineer,100,3137,31.37,4
+DEV005,Team A,Full Stack Developer,100,2963,29.63,4
+DEV006,Team B,Backend Developer,100,3050,30.5,4
+DEV007,Team B,Frontend Developer,100,3203,32.03,4
+DEV008,Team B,Data Engineer,100,3034,30.34,4
+DEV009,Team B,AI Engineer,100,3165,31.65,4
+DEV010,Team B,Full Stack Developer,100,3003,30.03,4
