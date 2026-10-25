@@ -120,7 +120,20 @@ uvicorn backend.main:app --reload --port 8000
 
 The interactive API documentation is available at `http://127.0.0.1:8000/docs`.
 
-### 2. Frontend Dashboard Setup & Run
+### 2. Apache Airflow Pipeline
+
+The Airflow DAG is located at `airflow/dags/cognistream_pipeline.py`. It orchestrates six tasks: event generation, validation, ingestion, flow analytics, team analytics, and focus-session analysis.
+
+Airflow was tested in Ubuntu on WSL. After installing and configuring Airflow and the project's Python environment:
+
+1. Activate the Airflow virtual environment and set `AIRFLOW_HOME` as configured on your machine.
+2. Start the Airflow API server using `airflow api-server --port 8080`.
+3. Open `http://localhost:8080`, locate `cognistream_analytics_pipeline`, and trigger a DAG run.
+4. Check the DAG run details to verify that all six tasks complete successfully.
+
+The Airflow environment and project paths may need adjustment on another machine.
+
+### 3. Frontend Dashboard Setup & Run
 
 In a separate terminal, navigate to the `frontend` directory:
 
@@ -149,7 +162,7 @@ npm run build
 - [x] **Phase 2**: Polars-based processing and flow analytics.
 - [x] **Phase 3A**: FastAPI analytics endpoints and CORS support.
 - [x] **Phase 3B**: Premium React and Tremor-styled developer-intelligence control tower dashboard.
-- [ ] **Future phases**: Airflow pipeline orchestration and ClickHouse time-series storage.
+- [x] **Phase 4**: Apache Airflow pipeline orchestration, tested successfully with six tasks.
 
 ## Data Privacy and Limitations
 
