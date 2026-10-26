@@ -3,9 +3,13 @@ import sys
 from pathlib import Path
 
 import pandas as pd
-from validate_events import validate_events
 
 ROOT = Path(__file__).resolve().parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from clickhouse.client import insert_new_events
+from validate_events import validate_events
 
 RAW_FILE = ROOT / "data" / "raw" / "developer_events.csv"
 DEVELOPERS_FILE = ROOT / "data" / "sample" / "developers.csv"
@@ -30,15 +34,11 @@ def ingest_events():
     # Step 3: Validate developer references.
     known_developers = set(developers["developer_id"].astype(str))
     event_developers = set(events["developer_id"].astype(str))
-
     unknown_developers = event_developers - known_developers
 
     if unknown_developers:
-        print(
-            "ERROR: Unknown developer IDs:",
-            sorted(unknown_developers),
-        )
-        return False
+              print("ERROR: Unknown developer IDs:", sorted(unknown_developers))
+      return False
 
     # Step 4: Normalize and sort the event data.
     events["timestamp"] = pd.to_datetime(
@@ -76,16 +76,52 @@ def ingest_events():
         validate="many_to_one",
     )
 
+    # Stop if any developer profile information is missing.
+    if events[["team", "role"]].isna().any().any():
+        print("ERROR: Missing team or role information.")
+        return False
+
     # Step 6: Save the processed dataset.
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     events.to_csv(OUTPUT_FILE, index=False)
 
+    # Step 7: Insert only new events into ClickHouse.
+    print("\nStep 7: Inserting new events into ClickHouse...")
+
+    columns = [
+        "event_id",
+        "developer_id",
+        "timestamp",
+        "source",
+        "event_type",
+        "duration_minutes",
+        "team",
+        "role",
+    ]
+
+    database_events = events[columns].copy()
+    database_events["duration_minutes"] = (
+        database_events["duration_minutes"].astype(int)
+    )
+
+    rows = list(database_events.itertuples(index=False, name=None))
+
+    try:
+        inserted_count = insert_new_events(rows)
+    except Exception as exc:
+        print(f"ERROR: ClickHouse insertion failed: {exc}")
+        print("The processed CSV was saved, but database ingestion failed.")
+        return False
+
+    # Step 8: Print the ingestion summary.
     print("\nINGESTION SUMMARY")
     print("-" * 35)
     print(f"Processed events: {len(events)}")
     print(f"Unique developers: {events['developer_id'].nunique()}")
     print(f"Teams: {events['team'].nunique()}")
     print(f"Missing values: {int(events.isna().sum().sum())}")
+    print(f"New events inserted into ClickHouse: {inserted_count}")
+    print(f"Existing events skipped: {len(rows) - inserted_count}")
     print(f"Output file: {OUTPUT_FILE}")
     print("\nRESULT: INGESTION PASSED")
 

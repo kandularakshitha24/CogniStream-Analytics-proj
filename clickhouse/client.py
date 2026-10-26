@@ -1,4 +1,4 @@
-﻿import os
+import os
 
 import clickhouse_connect
 
@@ -35,5 +35,49 @@ def get_event_count():
             "SELECT count() FROM cognistream.developer_events"
         )
         return result.result_rows[0][0]
+    finally:
+        client.close()
+
+def insert_new_events(rows):
+    """Insert events whose event IDs are not already stored."""
+    if not rows:
+        return 0
+
+    client = get_client()
+    try:
+        existing_result = client.query(
+            """
+            SELECT event_id
+            FROM cognistream.developer_events
+            WHERE event_id IN {event_ids:Array(String)}
+            """,
+            parameters={
+                "event_ids": [str(row[0]) for row in rows],
+            },
+        )
+        existing_ids = {row[0] for row in existing_result.result_rows}
+
+        new_rows = [
+            row for row in rows
+            if str(row[0]) not in existing_ids
+        ]
+
+        if new_rows:
+            client.insert(
+                "developer_events",
+                new_rows,
+                column_names=[
+                    "event_id",
+                    "developer_id",
+                    "timestamp",
+                    "source",
+                    "event_type",
+                    "duration_minutes",
+                    "team",
+                    "role",
+                ],
+            )
+
+        return len(new_rows)
     finally:
         client.close()
