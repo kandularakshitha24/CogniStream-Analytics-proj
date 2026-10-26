@@ -5,6 +5,7 @@ from typing import Any, Optional
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from clickhouse.client import get_event_count
 
 
 # Resolve paths relative to the project root.
@@ -116,6 +117,7 @@ def root():
     }
 
 
+
 @app.get("/health")
 def health_check():
     """Check whether the API is responding."""
@@ -123,6 +125,23 @@ def health_check():
         "status": "healthy",
         "service": "cognistream-api",
     }
+
+
+@app.get("/clickhouse/health")
+def clickhouse_health_check():
+    """Check ClickHouse connectivity and report the stored event count."""
+    try:
+        event_count = get_event_count()
+        return {
+            "status": "healthy",
+            "service": "clickhouse",
+            "event_count": event_count,
+        }
+    except Exception as exc:
+        raise HTTPException(
+            status_code=503,
+            detail="ClickHouse is unavailable or could not be queried.",
+        ) from exc
 
 
 @app.get("/developers")
@@ -212,3 +231,9 @@ def get_context_switches(
         ]
 
     return {"count": len(rows), "data": rows}
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="127.0.0.1", port=8000)
