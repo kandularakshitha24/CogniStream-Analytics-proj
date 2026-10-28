@@ -3,8 +3,8 @@ from datetime import datetime
 from airflow import DAG
 from airflow.providers.standard.operators.bash import BashOperator
 
-PROJECT_DIR = "/mnt/c/Users/kandu/OneDrive/Documents/Cognistream"
-PROJECT_PYTHON = "/home/kandu/cognistream_venv/bin/python"
+PROJECT_DIR = "/opt/cognistream"
+PROJECT_PYTHON = "/usr/local/bin/python"
 
 with DAG(
     dag_id="cognistream_analytics_pipeline",

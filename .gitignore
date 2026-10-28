@@ -12,3 +12,8 @@ node_modules/
 dist/
 dist-ssr/
 *.local
+airflow/.env.runtime
+airflow/admin-password.txt
+airflow/logs/
+airflow/config/
+airflow/plugins/__pycache__/

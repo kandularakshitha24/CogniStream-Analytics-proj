@@ -37,8 +37,8 @@ def ingest_events():
     unknown_developers = event_developers - known_developers
 
     if unknown_developers:
-              print("ERROR: Unknown developer IDs:", sorted(unknown_developers))
-      return False
+        print("ERROR: Unknown developer IDs:", sorted(unknown_developers))
+        return False
 
     # Step 4: Normalize and sort the event data.
     events["timestamp"] = pd.to_datetime(
