@@ -1,31 +1,78 @@
-﻿# Phase 4: Airflow Orchestration Plan
+﻿# Phase 4: Apache Airflow Orchestration
 
 ## Objective
-Prepare CogniStream for scheduled, repeatable analytics pipeline execution.
 
-## Existing Pipeline
-- Generate synthetic developer activity events.
-- Validate event structure and data quality.
-- Process events and calculate analytics.
-- Insert only new events into ClickHouse.
-- Serve analytics through the FastAPI backend.
-- Display analytics in the React dashboard.
+Automate the CogniStream analytics workflow using Apache Airflow and Docker Compose.
 
-## Planned Orchestration
-1. Configure Apache Airflow in a compatible environment.
-2. Create a DAG for event validation and ingestion.
-3. Add task dependencies and useful failure logs.
-4. Test task execution and retry behavior.
-5. Verify that repeated runs do not insert duplicate events.
-6. Document setup and execution instructions.
+## Implementation Status
 
-## Validation Checklist
-- [ ] Airflow starts successfully.
-- [ ] The DAG is discovered by Airflow.
-- [ ] Pipeline tasks execute in the correct order.
-- [ ] Failed tasks provide useful logs.
-- [ ] Repeated runs preserve ingestion idempotency.
-- [ ] Existing API and dashboard tests continue to pass.
+<badge color="success">Implementation completed</badge>
 
-## Current Status
-Planning documented. Airflow implementation and runtime validation remain pending.
+The Airflow environment and six-task analytics DAG have been implemented.
+
+## DAG Information
+
+**DAG ID:** `cognistream_analytics_pipeline`
+
+**DAG file:** `airflow/dags/cognistream_pipeline.py`
+
+### Tasks
+
+1. `generate_events`: Generates synthetic activity events.
+2. `validate_events`: Validates generated event records.
+3. `ingest_events`: Processes and inserts event records into ClickHouse.
+4. `flow_analytics`: Calculates developer flow metrics.
+5. `team_analytics`: Produces team-level analytics.
+6. `focus_sessions`: Calculates candidate focus-session metrics.
+
+### Task Dependencies
+
+The first three tasks execute sequentially:
+
+`generate_events` → `validate_events` → `ingest_events`
+
+After ingestion, the following tasks execute as parallel branches:
+
+- `flow_analytics`
+- `team_analytics`
+- `focus_sessions`
+
+## Execution
+
+Initialize the Airflow environment:
+
+```powershell id="x9z8y7"
+docker compose -f airflow/docker-compose.yaml up airflow-init
+```
+
+Start the services:
+
+```powershell id="m8n6v4"
+docker compose -f airflow/docker-compose.yaml up -d
+```
+
+Check service status:
+
+```powershell id="j5c3b2"
+docker compose -f airflow/docker-compose.yaml ps
+```
+
+Open the Airflow web interface at `http://localhost:8080`.
+
+Locate `cognistream_analytics_pipeline`, trigger a DAG run, and inspect the status of all six tasks.
+
+## Validation
+
+The DAG has previously completed successfully with all six tasks green.
+
+Additional validation includes:
+
+- Python API and ClickHouse API tests.
+- ClickHouse event-count and duplicate checks.
+- Docker Compose configuration validation.
+
+A direct ClickHouse database test requires connection environment variables to be configured.
+
+## Conclusion
+
+Phase 4 establishes automated orchestration for the CogniStream data and analytics pipeline. Airflow coordinates generation, validation, ingestion, and parallel analytics tasks.

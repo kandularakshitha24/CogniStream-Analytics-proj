@@ -1,169 +1,181 @@
 # CogniStream: Developer Flow-State & Cognitive Load Analytics
 
-## Project Overview
+## Overview
 
-CogniStream is a developer productivity analytics platform that analyzes simulated GitHub, Slack, Jira, and IDE activity events to identify coding-session indicators and potential context-switching interruptions.
-
-## Problem Statement
-
-Traditional productivity metrics, such as commits and tickets closed, do not reveal interruptions or the friction developers experience during focused work.
-
-## Objectives
-
-- Ingest activity events from multiple sources.
-- Clean and transform event data using Python and Polars.
-- Orchestrate data pipelines using Apache Airflow.
-- Store timestamped events in ClickHouse.
-- Analyze focus sessions and context-switching patterns.
-- Display insights in a React dashboard.
-- Serve aggregated metrics using FastAPI.
+CogniStream is an end-to-end developer activity analytics platform. It processes synthetic, privacy-safe activity events from GitHub, Slack, Jira, and IDE sources to explore developer workflows, potential context switching, and focus-session indicators.
 
 ## Technology Stack
 
-Python, Pandas, Polars, Apache Airflow, ClickHouse, FastAPI, Uvicorn, React, Tailwind CSS, Recharts, TypeScript, Vite, Git and GitHub.
+- **Language:** Python 3.11
+- **Data processing:** Polars, Pandas
+- **Workflow orchestration:** Apache Airflow, Docker Compose
+- **Database:** ClickHouse
+- **Backend:** FastAPI, Uvicorn
+- **Frontend:** React, TypeScript, Vite
+- **Visualization:** Recharts
+- **Version control:** Git and GitHub
 
-## Project Structure
+## Dataset
 
-```text
-CogniStream/
-├── backend/
-│   └── main.py                              # FastAPI analytics endpoints with CORS support
-├── data/
-│   ├── sample/
-│   │   └── developers.csv                   # Sample developer profiles
-│   ├── raw/
-│   │   └── developer_events.csv             # Generated raw activity events
-│   └── processed/
-│       ├── developer_events_clean.csv       # Validated and enriched activity records
-│       ├── developer_activity_summary.csv   # Per-developer metrics
-│       ├── source_activity_summary.csv      # Source-level load breakdown
-│       ├── team_activity_summary.csv        # Team-level activity metrics
-│       ├── team_flow_summary.csv            # Cross-team source change metrics
-│       ├── ide_session_summary.csv          # IDE session timeline & candidate focus tags
-│       └── context_switch_summary.csv       # Rapid switch and inactivity gap metrics
-├── frontend/
-│   ├── package.json                         # React + Vite + Tailwind + Recharts
-│   ├── vite.config.ts
-│   ├── tailwind.config.js
-│   ├── tsconfig.json
-│   ├── index.html
-│   └── src/
-│       ├── api/                             # Centralized API client & TypeScript interfaces
-│       ├── components/                      # Navigation, KPI cards, filters, skeletons
-│       ├── views/                           # Control Tower, Activity, Teams, Flow & Sessions
-│       ├── App.tsx
-│       └── main.tsx
-├── src/
-│   ├── generate_events.py                   # Synthetic event generation
-│   ├── validate_events.py                   # Data quality validation gate
-│   ├── ingest_events.py                     # Profile enrichment & normalization
-│   ├── flow_analytics.py                    # Developer flow and gap analytics
-│   └── team_analytics.py                    # Cross-team source transition analytics
-├── README.md
-└── requirements.txt
-```
+- 1,000 synthetic activity events
+- 10 developers
+- 2 teams
+- 4 sources: GitHub, Slack, Jira, and IDE
+- 8 columns in the processed event dataset
 
-## Current Implementation
+Processed dataset: `data/processed/developer_events_clean.csv`
 
-### Phase 1: Synthetic Data Generation and Ingestion
-- Created a sample developer profiles dataset containing 10 developers across two teams.
-- Generated 1,000 synthetic activity events across GitHub, Slack, Jira, and IDE sources.
-- Implemented data validation for required fields, event IDs, timestamps, sources, and durations.
-- Built an ingestion script to validate events, verify developer references, standardize timestamps, sort records, and attach team and role information.
-- Exported the processed dataset as a CSV file.
+## Architecture
 
-### Phase 2: Flow Analytics & Team Metrics
-- Implemented Polars-based time-series and window calculations (`flow_analytics.py` and `team_analytics.py`).
-- Classified rapid source switches ($\le 15$ min) and inactivity gaps ($> 60$ min).
-- Identified candidate focus sessions from IDE coding event continuity.
+1. Generate synthetic developer activity events.
+2. Validate and process the generated data.
+3. Ingest event records into ClickHouse.
+4. Calculate developer, team, flow, and focus-session analytics.
+5. Expose analytics through FastAPI.
+6. Display results in the React dashboard.
+7. Orchestrate the pipeline using Apache Airflow.
 
-### Phase 3A: FastAPI Analytics Service
-- Built REST API endpoints (`backend/main.py`) serving health, developer summaries, sources, teams, IDE sessions, and context-switching metrics.
-- Configured CORS middleware for local frontend dashboard communication.
+## Dashboard
 
-### Phase 3B: Premium Developer-Intelligence Dashboard
-- Developed a production-grade dark control tower dashboard in React, TypeScript, Tailwind CSS, and Recharts.
-- Implemented 4 dedicated views:
-  1. **Control Tower (Overview)**: Executive KPIs, activity breakdown, team switch rates, and cognitive friction rankings.
-  2. **Activity Analytics**: Tool share duration versus event counts and developer source breadth.
-  3. **Team Comparisons**: Side-by-side Team A vs Team B metrics, stability index, and role matrix.
-  4. **Flow & Focus Sessions**: Deep work IDE session logs with candidate focus filter, rapid switch tracking, and methodology guides.
-- Added live backend connectivity indicator with auto-retry and multi-dimensional filters (Team, Developer, Candidate Focus Sessions).
+The React dashboard provides four views:
 
-## Setup and Execution
+- **Control Tower:** Overall project and activity metrics.
+- **Activity Analytics:** Developer and source activity.
+- **Team Comparisons:** Team-level activity and flow patterns.
+- **Flow & Focus Sessions:** IDE sessions and context-switch indicators.
 
-### 1. Backend Setup & Pipeline
+## API Endpoints
 
-Python 3.11 or a compatible version is recommended.
+| Endpoint | Purpose |
+|---|---|
+| `/` | Project information |
+| `/health` | API health |
+| `/clickhouse/health` | ClickHouse connectivity |
+| `/developers` | Developer analytics |
+| `/sources` | Source activity |
+| `/teams` | Team analytics |
+| `/team-flow` | Team flow comparisons |
+| `/sessions` | Focus-session analytics |
+| `/context-switches` | Context-switch analytics |
 
-Install backend dependencies:
+Interactive API documentation: `http://localhost:8000/docs`
 
-```bash
+## Run Locally
+
+### 1. Set up Python
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 ```
 
-Run the pipeline from the project root directory in this order:
+### 2. Run the data pipeline
 
-```bash
+Run from the project root:
+
+```powershell
 python src/generate_events.py
 python src/validate_events.py
 python src/ingest_events.py
 python src/flow_analytics.py
 python src/team_analytics.py
+python src/focus_sessions.py
 ```
 
-Start the FastAPI analytics API:
+### 3. Start the backend
 
-```bash
-uvicorn backend.main:app --reload --port 8000
+```powershell
+python -m uvicorn backend.main:app --reload --port 8000
 ```
 
-The interactive API documentation is available at `http://127.0.0.1:8000/docs`.
+### 4. Start the frontend
 
-### 2. Apache Airflow Pipeline
+In a separate terminal:
 
-The Airflow DAG is located at `airflow/dags/cognistream_pipeline.py`. It orchestrates six tasks: event generation, validation, ingestion, flow analytics, team analytics, and focus-session analysis.
-
-Airflow was tested in Ubuntu on WSL. After installing and configuring Airflow and the project's Python environment:
-
-1. Activate the Airflow virtual environment and set `AIRFLOW_HOME` as configured on your machine.
-2. Start the Airflow API server using `airflow api-server --port 8080`.
-3. Open `http://localhost:8080`, locate `cognistream_analytics_pipeline`, and trigger a DAG run.
-4. Check the DAG run details to verify that all six tasks complete successfully.
-
-The Airflow environment and project paths may need adjustment on another machine.
-
-### 3. Frontend Dashboard Setup & Run
-
-In a separate terminal, navigate to the `frontend` directory:
-
-```bash
+```powershell
 cd frontend
 npm install
 npm run dev
 ```
 
-Open your browser to:
+Open `http://localhost:5173`.
 
-```text
-http://localhost:5173
+### 5. Start Airflow
+
+Docker Desktop and Docker Compose are required.
+
+From the project root:
+
+```powershell
+docker compose -f airflow/docker-compose.yaml up airflow-init
+docker compose -f airflow/docker-compose.yaml up -d
+docker compose -f airflow/docker-compose.yaml ps
 ```
 
-To create an optimized production build:
+Open `http://localhost:8080` and trigger `cognistream_analytics_pipeline`.
 
-```bash
+The DAG contains six tasks:
+
+1. `generate_events`
+2. `validate_events`
+3. `ingest_events`
+4. `flow_analytics`
+5. `team_analytics`
+6. `focus_sessions`
+
+The first three tasks run sequentially. The three analytics tasks run in parallel after ingestion.
+
+To stop the services:
+
+```powershell
+docker compose -f airflow/docker-compose.yaml down
+```
+
+## ClickHouse Configuration
+
+The ClickHouse client supports these environment variables:
+
+- `CLICKHOUSE_HOST`
+- `CLICKHOUSE_USER`
+- `CLICKHOUSE_PASSWORD`
+- `CLICKHOUSE_HTTP_PORT` (default: 8123)
+- `CLICKHOUSE_DATABASE` (default: `cognistream`)
+- `CLICKHOUSE_SECURE` (default: false)
+
+The event table is `cognistream.developer_events`. Configure credentials locally and never commit secrets.
+
+## Testing
+
+Run the Python test suite:
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
+Build the frontend:
+
+```powershell
 cd frontend
 npm run build
 ```
 
+Validate the Airflow Compose configuration:
+
+```powershell
+docker compose -f airflow/docker-compose.yaml config -q
+```
+
 ## Project Status
 
-- [x] **Phase 1**: Synthetic data generation, validation, and ingestion.
-- [x] **Phase 2**: Polars-based processing and flow analytics.
-- [x] **Phase 3A**: FastAPI analytics endpoints and CORS support.
-- [x] **Phase 3B**: Premium React and Tremor-styled developer-intelligence control tower dashboard.
-- [x] **Phase 4**: Apache Airflow pipeline orchestration, tested successfully with six tasks.
+- [x] Synthetic data generation and validation
+- [x] Data ingestion and ClickHouse integration
+- [x] Developer, team, flow, and focus-session analytics
+- [x] FastAPI backend
+- [x] React dashboard
+- [x] Six-task Airflow pipeline
+- [x] API and ClickHouse API tests
 
-## Data Privacy and Limitations
+## Privacy and Limitations
 
-The implementation uses synthetic activity data and does not require access to real employee accounts. Generated activity patterns are for development and testing; they are not direct measurements of real employee productivity or cognitive load.
+CogniStream uses synthetic activity data and does not monitor real employee accounts. Focus-session and context-switch indicators are estimates derived from event patterns. They are not direct measurements of productivity, attention, or cognitive state.

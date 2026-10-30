@@ -12,8 +12,16 @@ node_modules/
 dist/
 dist-ssr/
 *.local
+
+# Airflow credentials and local configuration
+airflow/.env
 airflow/.env.runtime
 airflow/admin-password.txt
 airflow/logs/
 airflow/config/
 airflow/plugins/__pycache__/
+
+# Local backups (keep out of version control)
+*.bak
+data/raw/*.pre-airflow-backup.csv
+data/processed/pre-airflow-backup/
